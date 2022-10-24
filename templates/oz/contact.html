@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load static recaptcha3 %}
+
+{% load i18n %}
+
+
+    {% block content %}
+    <main>
+        <section class="section1 article-news my-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-11 col-12 m-auto">
+                        <div class="row mb-5 ch">
+                            <div class="col-md-3 col-6">
+                                <div class="text-uppercase py-1 py-md-2 r pl-4">Aloqa</div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+               
+                        {% if messages %}
+                        {% for msg in messages %}
+                        <div class="alert alert-primary" role="alert">
+                            {{ msg }}
+                        </div>
+                            {% endfor %}
+                        {% endif %}
+                        <form action="{% url 'action_view' %}" method="POST">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+    <div class="g-recaptcha" data-sitekey="6Lf9AQUiAAAAAFa66lhRVSO3_fTfi7tPtPtAoacF"></div>
+                            <input type="hidden" , name="action" , value="create_ad">
+                            {% csrf_token %}
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">F.I.SH</label>
+                              <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Ism Familiya" required="false">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Telefon raqami</label>
+                                <input type="text" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="Telefon raqami" required="false">
+                              </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email manzil</label>
+                                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="pochta@manzil.uz" required="false">
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlInput1">Mavzu</label>
+                                <input type="text" name="message" class="form-control" id="exampleFormControlInput1" placeholder="Mavzu" required="false">
+                              </div>
+                        
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Xabaringizni qoldiring</label>
+                              <textarea name="message_long" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea required="false">
+                            </div>
+        
+                            <input type="submit" class="btn bg-info1 float-left radius rounded-10"  value="Yuborish">
+                            <br><br>
+                          </form>
+                    </div>
+                </div>
+        </section>s
+
+        
+        
+    </main>
+
+
+    {% endblock content %} 
+

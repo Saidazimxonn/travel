@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+    {% block content %}
+    <main>
+        <section>
+            <div class="container-fluid mt-5 mt-md-0">
+                <div class="row">
+                    <div class="col-md-11 col-12 m-auto row pr-0">
+                        <div class="col-md-12 row pr-0">
+                            <div class="col-md-8 col-12" align="center">
+
+                                <div class="row my-md-5" style="margin-bottom: 1rem!important;">
+                                    <div class="col-md-12 col-10 offset-1 offset-md-0 mb-2">
+                                        <h4 class="font-weight-bold ch">{{ photo_item.nomi|upper }}</h4>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row mb-5">
+                                    <div class="col-md-12 col-12" style="font-size: 18px">
+                                        <div style="text-align: justify;">{{ photo_item.body|safe }}</div>
+                                        <div style="text-align: justify;">&nbsp;</div>
+                                        
+                                        <div style="text-align: justify;">&nbsp;</div>
+                                        
+                                        
+                                        
+                                    </div>
+                                    <div class="col-md-12 mt-3 mt-md-0 col-12">
+                                        <div class="bg-primary text-white pt-1 pb-1">
+                                            <i class="fas fa-clock mr-2"></i> {{ photo_item.date.date }} |
+                                            
+                                            <!-- <i class="fas fa-eye mr-2"></i> 22 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-12 mt-5 pt-4 mb-2">
+                                <h4 class="text-uppercase mb-4">Yangiliklar</h4>
+                                {% for new in news %}
+                                <div class="col-md-12 row mt-3 mb-4 pr-0">
+                                    <div class="col-md-4 p-0">
+                                        <a href="{% url 'news_d' new.id %}">
+                                            <img src="{{new.image.url}}" width="100%">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-8 pr-0">
+                                        
+                                        <a href="{% url 'news_d' new.slug %}" style="color: black"><b>{{new.title|title}}i</b></a>
+                                        <p class="m-0">{{new.date.date}}</p>
+                                    </div>
+                                </div>
+                                <hr />
+                               {% endfor %}
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="row pt-5 my-5">
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    {% endblock content %} 

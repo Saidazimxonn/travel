@@ -1,0 +1,1848 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-02 10:11+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\config\settings.py:134
+msgid "Uzbek"
+msgstr "Узбекский"
+
+#: .\config\settings.py:135
+msgid "Russian"
+msgstr "Русский"
+
+#: .\config\settings.py:136
+msgid "English"
+msgstr "Английский"
+
+#: .\templates\base.html:10 .\templates\index.html:25
+#: .\templates\index.html:643
+msgid "Samarqand viloyati Bandlik bosh boshqarmasi"
+msgstr "Главное управление занятости населения Самаркандской области"
+
+#: .\templates\base.html:98
+msgid "Bayroq"
+msgstr "Флаг"
+
+#: .\templates\base.html:101
+msgid "Gerb"
+msgstr "Герб"
+
+#: .\templates\base.html:104
+msgid "Madhiya"
+msgstr "Гимны"
+
+#: .\templates\base.html:143
+msgid "Bizning ijtimoiy tarmoqlar"
+msgstr "Наши социальные сети"
+
+#: .\templates\base.html:151
+msgid "Qidiruv..."
+msgstr "Поиск ..."
+
+#: .\templates\base.html:172
+msgid "Boshqarma"
+msgstr "Управление"
+
+#: .\templates\base.html:176
+msgid "Rahbariyat"
+msgstr "Лидерство"
+
+#: .\templates\base.html:178
+msgid "Bo`limlar"
+msgstr "Разделы"
+
+#: .\templates\base.html:180
+msgid "Hududiy markazlar"
+msgstr "Территориальные центры"
+
+#: .\templates\base.html:185
+msgid "Faoliyat yo`nalishlari"
+msgstr "Направления деятельности"
+
+#: .\templates\base.html:187
+msgid "Bandlik"
+msgstr "Занятость"
+
+#: .\templates\base.html:189
+msgid "Mehnat muhofazasi"
+msgstr "Охрана труда"
+
+#: .\templates\base.html:191
+msgid "Mehnat inspeksiyasi"
+msgstr "Трудовая инспекция"
+
+#: .\templates\base.html:193
+msgid "Mehnat migratsiyasi"
+msgstr "Трудовая миграция"
+
+#: .\templates\base.html:196
+msgid "Matbuot markazi"
+msgstr "Пресс-центр"
+
+#: .\templates\base.html:198
+msgid "Barcha yangiliklar"
+msgstr "Все новости"
+
+#: .\templates\base.html:200
+msgid "Ko`p beriladigan savollar"
+msgstr "Часто задаваемые вопросы"
+
+#: .\templates\base.html:202
+msgid "Telegram"
+msgstr "Телеграмма"
+
+#: .\templates\base.html:204
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: .\templates\base.html:206
+msgid "Instagram"
+msgstr "Инстаграм"
+
+#: .\templates\base.html:211
+msgid "Qabulxona"
+msgstr "Приемная"
+
+#: .\templates\base.html:213
+msgid "Onlayn qabulga yozilish"
+msgstr "Записаться на онлайн прием"
+
+#: .\templates\base.html:215
+msgid "Qabul jadvali"
+msgstr "График приема"
+
+#: .\templates\base.html:217
+msgid "Telefon raqamlar ma`lumoti"
+msgstr "Информация о номерах телефонов"
+
+#: .\templates\base.html:220
+msgid "Me`yoriy-huquqiy hujjatlar"
+msgstr "Нормативно-правовые акты"
+
+#: .\templates\base.html:222
+msgid "O`zbekiston Respublikasi Qonunlari"
+msgstr "Законодательство Республики Узбекистан"
+
+#: .\templates\base.html:224
+msgid "O`zbekiston Respublikasi Prezidentining farmon va qarorlari"
+msgstr "Указы и постановления Президента Республики Узбекистан"
+
+#: .\templates\base.html:226
+msgid "O`zbekiston Respublikasi Vazirlar Mahkamasining qarorlari"
+msgstr "Постановления Кабинета Министров Республики Узбекистан"
+
+#: .\templates\base.html:228
+msgid ""
+"O‘zbekiston Respublikasi Bandlik va mehnat munosabatlari vazirligi me`yoriy "
+"hujjatlari"
+msgstr ""
+"Министерство занятости и трудовых отношений Республики Узбекистандокументы"
+
+#: .\templates\base.html:230
+msgid ""
+"O‘zbekiston Respublikasi Adliya vazirligi ro‘yxatidan o‘tgan me`yoriy-"
+"huquqiy xujjatlar"
+msgstr ""
+"О нормативных правовых актах, зарегистрированных Министерством юстиции "
+"Республики Узбекистан юридическое паломничество"
+
+#: .\templates\base.html:232
+msgid "Korrupsiyaga qarshi kurashish"
+msgstr "Противодействие коррупции"
+
+#: .\templates\base.html:238
+msgid "Bog`lanish"
+msgstr "Ссылка"
+
+#: .\templates\bayroq.html:12
+msgid "BAYROQ"
+msgstr "Флаг"
+
+#: .\templates\bayroq.html:21
+msgid "O‘ZBEKISTON RESPUBLIKASINING DAVLAT BAYROG‘I"
+msgstr "ГОСУДАРСТВЕННЫЙ ФЛАГ РЕСПУБЛИКИ УЗБЕКИСТАН"
+
+#: .\templates\bayroq.html:23
+msgid ""
+" “O‘zbekiston Respublikasi Davlat bayrog‘i to‘g‘risida”gi qonun 1991 yil 18 "
+"noyabrda O‘zbekiston Respublikasi Oliy Kengashining navbatdan tashqari "
+"O‘tkazilgan VII sessiyasida qabul qilingan. "
+msgstr ""
+"Закон”О Государственном флаге Республики Узбекистан принят 18 ноября1991 "
+"года на внеочередной сессии Верховного Совета РеспубликиУзбекистанПринят на "
+"VII сессии Комиссии."
+
+#: .\templates\bayroq.html:24
+msgid ""
+" Davlat bayrog‘i va uning ramzi bugungi O‘zbekiston sarhadida qadimda mavjud "
+"bo‘lgan davlatlar bilan tarixan bog‘liqligini anglatadi hamda respublikaning "
+"milliy-madaniy an'analarini o‘zida mujassamlashtiradi.' "
+msgstr ""
+"Символика Государственного флага Республики Узбекистан продолжает лучшие "
+"традиции, присущие флагам могущественных держав, существовавшим на "
+"территории нашей страны, в то же время отражает природные "
+"особенностиреспублика, национальная и культурная самобытность народа"
+
+#: .\templates\bayroq.html:25
+msgid ""
+" Bayroqdagi moviy rang tiriklik mazmuni aks etgan mangu osmon va obihayot "
+"ramzi. Timsollar tilida bu – yaxshilikni, donishmandlikni, halollikni, shon-"
+"shuhrat va sadoqatni bildiradi. Binobarin, Amir Temur davlati bayrog‘ining "
+"rangi ham moviy rangda edi. Bayroqdagi oq rang – muqaddas tinchlik ramzi "
+"bo‘lib, u kun charog‘onligi va koinot yoritqichlari bilan uyg‘unlashib "
+"ketadi. Oq rang – poklik, beg‘uborlik, soflikni, orzu va hayollar tozaligi, "
+"ichki go‘zallikka intilishning timsoli.' "
+msgstr ""
+"Государственный флаг и его символ издавна присутствуют на сегодняшней "
+"границе Узбекистана означает историческую связь республики с государствами, "
+"в которых она находитсявоплощает в себе национально-культурные традиции.'  "
+"государственный флаг и его символ символизируют историческую связь с "
+"государствами, существовавшими в древности натерритории современного "
+"Узбекистана, и воплощают в себе национально-культурные традиции республики."
+
+#: .\templates\bayroq.html:26
+msgid ""
+" Yashil rang – tabiatning yangilanish ramzi. U ko‘pgina xalqlarda "
+"navqironlik, umid va shodumonlik timsoli hisoblanadi. Qizil chiziqlar – "
+"vujudimizda jo‘shib oqayotgan hayotiy qudrat irmoqlarini anglatadi.' "
+msgstr ""
+"Зеленый цвет-символ обновления природы. Он у многих народов Навруз-это "
+"символ благополучия, надежды и радости. Красные линии – представляет притоки "
+"жизненной силы, которые бурно текут по нашим телам.' "
+
+#: .\templates\bayroq.html:27
+msgid ""
+" Navqiron yarim oy tasviri bizning tarixiy an'analarimiz bilan bog‘liq. Ayni "
+"paytda u qo‘lga kiritilgan mustaqilligimiz ramzi ham.Yulduzlar barcha uchun "
+"ruhoniy, ilohiy timsol sanalgan. O‘zbekiston Respublikasi Davlat "
+"bayrog‘idagi 12 yulduz tasviri ham tarixiy an'analarimiz, qadimgi "
+"yilnomamizga bevosita aloqador. Bizning O‘n ikki yulduzga bo‘lgan "
+"e'tiborimiz O‘zbekiston sarhadidagi qadimgi davlatlar ilmiy tafakkurida "
+"nujum ilmi taraqqiy etganligi bilan ham izohlanadi.' "
+msgstr ""
+"Изображение полумесяца связано с нашими историческими традициями. Айни в то "
+"время он был также символом нашей независимости.Звезды для всех жрец, "
+"считался божественным воплощением. Республика Узбекистанизображение 12 звезд "
+"на флаге также является нашей исторической традицией, древней имеет "
+"непосредственное отношение к нашей летописи. У нас было двенадцать звезд "
+"наше внимание в научной мысли древних государств на границе Узбекистана это "
+"также объясняется тем, что наука о смерти продвинулась.' "
+
+#: .\templates\bayroq.html:28
+msgid ""
+" Davlat bayrog‘imizdagi 12 yulduz tasvirini o‘zbek xalqi madaniyatining "
+"qadimiyligi, uning komillikka, o‘z tuprog‘ida saodatga intilishi ramzi "
+"sifatida tushunish lozim.' "
+msgstr ""
+"Изображение 12 звезд на государственном флаге является символом культуры "
+"узбекского народа символ его древности, его стремления к совершенству, к "
+"счастью на своей землеэто следует понимать как.мсгстр "
+
+#: .\templates\detail_news.html:53 .\templates\regional.html:46
+msgid "So`nggi yangiliklar"
+msgstr "Oxirgi yangiliklar"
+
+#: .\templates\gerb.html:12
+msgid "GERB"
+msgstr "Герб"
+
+#: .\templates\gerb.html:21
+msgid "O‘ZBEKISTON RESPUBLIKASI DAVLAT GERBI"
+msgstr "ГОСУДАРСТВЕННЫЙ ГЕРБ РЕСПУБЛИКИ УЗБЕКИСТАН"
+
+#: .\templates\gerb.html:24
+msgid ""
+"“O‘zbekiston Respublikasi Davlat gerbi to‘g‘risida”gi qonun 1992 yil 2 "
+"iyulda O‘zbekiston Respublikasi Oliy Kengashining X sessiyasida qabul "
+"qilingan.<br>O‘zbekiston Respublikasining Davlat gerbi gullagan vodiy uzra "
+"charaqlab turgan quyosh tasviridan hamda so‘l tomonida bug‘doy boshoqlari, "
+"O‘ng tomonida ochilgan paxta chanoqlari suvrati tushirilgan chambardan "
+"iborat."
+msgstr ""
+"Закон О Государственном гербе Республики Узбекистан  от 1992 года № 2 принят "
+"в июле на X сессии Верховного СоветаРеспублики Узбекистан сделано."
+"<БР>Государственный герб Республики Узбекистан над цветущей Долиной от "
+"изображения сияющего солнца и пшеничных колосьев на макушке От венка с "
+"водяными знаками ватные тампоны, открытые справа состоит."
+
+#: .\templates\gerb.html:25
+msgid ""
+"Gerbning yuqori qismida respublika jipsligining ramzi sifatida sakkiz "
+"qirrali yulduz tasvirlangan: sakkiz qirra ichida joylashgan yarim oy va "
+"yulduz musulmonlarning qutlug‘ ramzidir."
+msgstr ""
+"Восьмерка в верхней части герба как символ республиканского единства "
+"изображена пятиконечная звезда: полумесяц, расположенный в восьми лучах, и "
+"звезда является символом памяти мусульман."
+
+#: .\templates\gerb.html:26
+msgid ""
+"Gerbning markazida himmat, olijanoblik va fidoyilik timsoli bo‘lgan "
+"afsonaviy Humo qushi qanotlarini yozib turibdi. Ushbu ramz va timsollar "
+"xalqimizning tinchlik, yaxshilik, baxt-saodat, farovonlik yo‘lidagi orzu-"
+"umidlarini ifodalaydi."
+msgstr ""
+"В центре герба был символ мудрости, благородства и самопожертвования "
+"легендарная птица Хумо пишет свои крылья. Эти символы и символы мечта нашего "
+"народа о мире, добре, счастье, процветании -выражает свои надежды."
+
+#: .\templates\gerb.html:27
+msgid ""
+"Gerbning pastki qismida respublika Davlat bayrog‘ini ifoda etuvchi chambar "
+"lentasining bandiga \"O‘zbekiston\" deb yozib qo‘yilgan."
+msgstr ""
+"В нижней части герба венок, представляющий государственный флаг Республики в "
+"пункте Узбекистан написано  Узбекистан"
+
+#: .\templates\index.html:25
+msgid "O‘zbekiston Respublikasi Bandlik va mehnat munosabatlari vazirligi "
+msgstr "Министерство занятости и трудовых отношений Республики Узбекистан"
+
+#: .\templates\index.html:41
+msgid "O‘zbekiston Respublikasi Bandlik va mehnat munosabatlari vazirligi"
+msgstr "Министерство занятости и трудовых отношений Республики Узбекистан"
+
+#: .\templates\index.html:42
+msgid "“Yangi o'zbekistonda erkin va farovon yashaylik”"
+msgstr "“Давайте жить свободно и комфортно в новом Узбекистане”"
+
+#: .\templates\index.html:59
+msgid "Davlat xizmatlari"
+msgstr "Государственные услуги"
+
+#: .\templates\index.html:70
+msgid "O'zbekistonda ish topish"
+msgstr "Найти работу в Узбекистане"
+
+#: .\templates\index.html:82
+msgid "Ishga joylashganim tarixi"
+msgstr "История моей карьеры"
+
+#: .\templates\index.html:94
+msgid "Davlat mehnat inspeksiyasiga murojaat qilish"
+msgstr "Обращение в Государственную инспекцию труда"
+
+#: .\templates\index.html:106
+msgid "Yuridik shaxslar uchun Mehnat shartnomasini onlayn rasmiylashtirish"
+msgstr "Оформление трудового договора онлайн для юридических лиц"
+
+#: .\templates\index.html:116
+msgid "Yuridik shaxslar uchun Ishchi topish"
+msgstr "Поиск работы для юридических лиц"
+
+#: .\templates\index.html:126
+msgid ""
+"Yuridik shaxslar uchun XBAni xususiy bandlik agentliklari reestriga kiritish"
+msgstr "Включение в реестр частных агентств занятости для юридических лиц"
+
+#: .\templates\index.html:139
+msgid "Davlat mehnat inspeksiyasi statistikasi"
+msgstr "Статистика Государственной инспекции труда"
+
+#: .\templates\index.html:147
+msgid "Jami"
+msgstr "Всего"
+
+#: .\templates\index.html:148 .\templates\index.html:162
+msgid "murojaatlar"
+msgstr "обращения"
+
+#: .\templates\index.html:154
+msgid "Tekshirish"
+msgstr "Проверить"
+
+#: .\templates\index.html:155
+msgid "va o\\"
+msgstr "и изучает"
+
+#: .\templates\index.html:161
+msgid "Qanoatlantirilgan"
+msgstr "Удовлетворены"
+
+#: .\templates\index.html:168
+msgid "Solingan"
+msgstr "Наложенные"
+
+#: .\templates\index.html:168
+msgid "jarimalar"
+msgstr "штрафы"
+
+#: .\templates\index.html:180
+msgid "Tezkor yangiliklar"
+msgstr "Все новости"
+
+#: .\templates\index.html:211
+msgid "Davlat organlari saytlari"
+msgstr "Правительственные сайты"
+
+#: .\templates\index.html:225 .\templates\index.html:641
+msgid "O`zbekiston Respublikasi bandlik va mehnat munosabatlari vazirligi"
+msgstr "Министерство занятости и трудовых отношений Республики Узбекистан"
+
+#: .\templates\index.html:236
+msgid "O`zbekiston respublikasi prezidentining rasmiy veb-sayti"
+msgstr "Официальный сайт Президента Республики Узбекистан"
+
+#: .\templates\index.html:246 .\templates\index.html:279
+msgid "Yagona interaktiv davlat xizmatlari portali"
+msgstr "Единый интерактивный портал госуслуг"
+
+#: .\templates\index.html:257
+msgid "O`zbekiston Respublikasi ochiq ma'lumotlar portali"
+msgstr "Портал открытых данных Республики Узбекистан"
+
+#: .\templates\index.html:268
+msgid "O`zbekiston Respublikasi Hukumat portali"
+msgstr "Правительственный портал Республики Узбекистан"
+
+#: .\templates\index.html:303
+msgid "E'lonlar"
+msgstr "Объявления"
+
+#: .\templates\index.html:393
+msgid "Ko'p beriladigan savollar"
+msgstr "Часто задаваемые вопросы"
+
+#: .\templates\index.html:402
+msgid "Ish joylarni attestasiyadan o‘tkazish – bu nima?"
+msgstr "Аттестация рабочих мест – что это такое?"
+
+#: .\templates\index.html:409
+msgid ""
+"Ish joylarni attestasiyadan o`tkazish – ishlab chiqarish muhitidagi "
+"fizikaviy, kimyoviy, biologik omillarni, ish joyida mehnat jarayonidagi "
+"og`irlik va zo`riqishni sinov asboblarida kompleks o`rganish, uskunalarning "
+"jarohat yetkazish xavfini aniqlash jarayonidir."
+msgstr ""
+"Аттестация рабочих мест – в производственной среде физические, химические, "
+"биологические факторы в процессе труда на рабочем месте комплексное "
+"исследование в приборах для испытаний на растяжение и растяжение, "
+"оборудование это процесс определения риска травмы."
+
+#: .\templates\index.html:417
+msgid "Ish joylarning attestasiyadan o`tkazish qayerda o`tkaziladi?"
+msgstr "Где проводится аттестация рабочих мест?"
+
+#: .\templates\index.html:423
+msgid ""
+"O‘zbekiston Respublikasi Adliya vazirligida 28 may 1996 yilda 247-raqam "
+"bilan ro‘yxatga olingan “Mehnat sharoitlarini baxolash, mehnat sharoitlari "
+"bo‘yicha ish joylarini attestasiyadan o‘tkazish uslubiyoti”ga muvofiq "
+"attestasiyadan o‘tkazish ishlari tashkiliy-huquqiy shakli, mulkchilik shakli "
+"va idoraviy bo‘ysunishidan qat'i nazar korxona va tashkilotlarda amalga "
+"oshiriladi."
+msgstr ""
+"В Министерстве юстиции Республики Узбекистан от 28 мая 1996 года № 247 "
+"зарегистрировано с “оценка условий труда, условий труда в соответствии "
+"с”методикой аттестации рабочих мест по направлению организационно-правовая "
+"форма аттестационной работы, форма собственности и осуществляется на "
+"предприятиях и в организациях независимо от ведомственной подчиненности нет."
+
+#: .\templates\index.html:431
+msgid "Nima uchun ish joylarni attestasiyadan o‘tkazish zarur?"
+msgstr "Зачем нужна аттестация рабочих мест?"
+
+#: .\templates\index.html:437 .\templates\index.html:454
+msgid ""
+"Ish joylarni attestasiyadan o‘tkazishning asosiy maqsadi, fuqarolarni "
+"sanitariya-gigiena me'yorlariga javob beruvchi sog‘lom va xavfsiz mehnat "
+"sharoitlariga bo‘lgan konstitusiyaviy huquqlarini ro‘yobga chiqarish;\n"
+"\n"
+"\t\t\t\t\t\t\t\tIsh joyi sharoitining zararliligi va mehnatning xavfliligi "
+"darajasini va qanday sinfga ta'aluqliligini asoslash;\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tIshlab chiqarishda jarohatlanish va kasb kasalliklariga "
+"chalinishni oldini olish, mehnat sharoitlarini sog‘lomlashtirish "
+"tadbirlarini ishlab chiqish;\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tO‘zbekiston Respublikasi Vazirlar Mahkamasining 1994 yil 12 "
+"maydagi 250-son qarori bilan tasdiqlangan O‘zbekiston Respublikasi "
+"«Fuqarolarni davlat pensiya ta'minoti haqida»gi qonuniga asosan imtiyozli "
+"davlat pensiya ta'minoti huquqini beruvchi 1, 2 va 3-son ro‘yxatlariga "
+"ishlab chiqarish, muassasa, ish, kasb, lavozim va ko‘rsatkichlarini "
+"taaluqliligini asoslash;\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tKorxonada noqulay va alohida tusdagi mehnat sharoitida "
+"ishlagani uchun yillik qo‘shimcha ta'til kunlari va qiskartirilgan ish vaqti "
+"davomiyligi huquqini beruvchi ish, kasb va lavozimlar ro‘yxatlarini "
+"aniqlash;\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tXodimni noqulay mehnat sharoitida ishlagani uchun imtiyozli "
+"davlat pensiya ta'minotiga huquqi mavjudligi yoki yo‘kligini tasdiqlash "
+"(belgilash);\n"
+"\t\t\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\tishlab chiqarishda jarohatlanish va kasb kasalliklariga "
+"chalinishni oldini olish, mehnat sharoitlarini sog‘lomlashtirish "
+"tadbirlarini ishlab chiqish uchun zarur."
+msgstr ""
+"Основной целью аттестации рабочих мест является реализацияконституционных "
+"прав граждан на здоровые и безопасные условия трудакоторые соответствуют "
+"санитарно-гигиеническим нормам; Обосновывают степень вредностиоб условиях "
+"труда и профессиональных вредностях и к какому классу они "
+"относятсяПрофилактика производственного травматизма и заболеваний, "
+"разработка мер поулучшить условия труда; В соответствии с Законом "
+"РеспубликиУзбекистан о государственном пенсионном обеспечении граждан, "
+"утвержденныйПостановление Кабинета Министров Республики Узбекистан от12 мая "
+"1994 года № 250 к спискам № 1, 2 и 3, обоснованиеактуальность производства, "
+"учреждения, работы, профессии, должности и показателей; Определить перечни "
+"рабочих мест, профессий и должностей, которые даютработник имеет право на "
+"дополнительный ежегодный отпуск и сокращенное рабочее времяза работу в "
+"неудобных и изолированных условиях труда; Подтверждение(определение) права "
+"работника на льготную государственную пенсию заработать в неблагоприятных "
+"условиях труда; предотвращать производственные травмы ипрофессиональные "
+"заболевания и разработать меры по улучшению условий труда"
+
+#: .\templates\index.html:475
+msgid "Ish joylarni attestasiyadan o‘tkazishga kim mas'ul?"
+msgstr "Кто несет ответственность за проведение аттестации рабочих мест?"
+
+#: .\templates\index.html:481
+#, fuzzy
+#| msgid ""
+#| "Ish joylarni attestasiyadan o‘z vaqtida va sifatli o‘tkazish uchun "
+#| "korxonaraxbari (ish beruvchi) mas'ul."
+msgid ""
+"Ish joylarni attestasiyadan o‘z vaqtida va sifatli o‘tkazish uchun korxona "
+"raxbari (ish beruvchi) mas'ul."
+msgstr ""
+"Предприятие за своевременное и качественное проведение аттестации рабочих "
+"мест руководитель (работодатель) несет ответственность.quality certification "
+"of workplaces."
+
+#: .\templates\index.html:489
+msgid ""
+"Ish joylarning attestasiyadan o‘tkazish qaysi davrda amalga oshirilishi "
+"lozim?"
+msgstr "В какой период проводится аттестация рабочих мест должен?"
+
+#: .\templates\index.html:495
+msgid ""
+"Attestasiyadan o‘tkazish davriyligi korxona tomonidan belgilanadi, lekin 5 "
+"yilda bir martadan kam bo‘lmasligi kerak."
+msgstr ""
+"Периодичность проведения аттестации определяется предприятием, но не менее 5 "
+"не реже одного раза в год."
+
+#: .\templates\index.html:657
+msgid "F.I.O"
+msgstr "Полное имя"
+
+#: .\templates\index.html:660
+msgid "E-Mail"
+msgstr "Электронная почта"
+
+#: .\templates\index.html:663 .\templates\managment.html:21
+#: .\templates\regional.html:22 .\templates\sections.html:21
+msgid "Telefon"
+msgstr "Телефон"
+
+#: .\templates\index.html:666
+msgid "Mavzu"
+msgstr "Предмет"
+
+#: .\templates\index.html:669
+msgid "Matn..."
+msgstr "Текст..."
+
+#: .\templates\index.html:672
+msgid "Yuborish"
+msgstr "Отправить сообщение"
+
+#: .\templates\madhiya.html:14
+msgid "MADHIYA"
+msgstr "Гимны"
+
+#: .\templates\madhiya.html:23
+msgid "O‘ZBEKISTON RESPUBLIKASINING DAVLAT MADHIYASI"
+msgstr "ГОСУДАРСТВЕННЫЙ ГИМН РЕСПУБЛИКИ УЗБЕКИСТАН"
+
+#: .\templates\madhiya.html:24
+msgid ""
+"“O‘zbekiston Respublikasining davlat madhiyasi” to‘g‘risidagi qonun 1992 yil "
+"10 dekabrda O‘zbekiston Respublikasi Oliy Kengashining O‘n birinchi "
+"sessiyasida qabul qilingan."
+msgstr ""
+"Закон О государственном гимне Республики Узбекистан 1992 года 10 декабря в "
+"соответствии с постановлением Верховного Совета Республики Узбекистан принят "
+"на сессии. ГОСУДАРСТВЕННЫЙ ГИМН РЕСПУБЛИКИ УЗБЕКИСТАН"
+
+#: .\templates\madhiya.html:25
+msgid "Mutal Burhonov musiqasi <br>Abdulla Oripov so‘zi"
+msgstr "Музыка Мутала Бурханова слова Абдуллы Орипова"
+
+#: .\templates\madhiya.html:26
+#, fuzzy
+#| msgid ""
+#| "Serquyosh hur o‘lkam, elga baxt, najot, <br>Sen o‘zing do‘stlarga "
+#| "yo‘ldosh, mehribon! <br>Yashnagay to abad ilmu fan, ijod,<br>Shuhrating "
+#| "porlasin toki bor "
+msgid ""
+"Serquyosh hur o‘lkam, elga baxt, najot, <br>Sen o‘zing do‘stlarga yo‘ldosh, "
+"mehribon! <br>Yashnagay to abad ilmu fan, ijod, <br>Shuhrating porlasin toki "
+"bor jahon!"
+msgstr "-"
+
+#: .\templates\madhiya.html:27 .\templates\madhiya.html:30
+msgid "Naqarot:"
+msgstr ""
+
+#: .\templates\madhiya.html:28 .\templates\madhiya.html:31
+msgid ""
+"Oltin bu vodiylar - jon O‘zbekiston, <br>Ajdodlar mardona ruhi senga yor! "
+"<br>Ulug‘ xalq qudrati jo‘sh urgan zamon, <br>Olamni mahliyo aylagan diyor!"
+msgstr ""
+
+#: .\templates\madhiya.html:29
+msgid ""
+"Bag‘ri keng O‘zbekning O‘chmas iymoni, <br>Erkin, yosh avlodlar senga zo‘r "
+"qanot! <br>Istiqlol mash'ali tinchlik posboni, <br>Xaqsevar, ona yurt, mangu "
+"bo‘l obod!"
+msgstr ""
+
+#: .\templates\managment.html:22 .\templates\sections.html:22
+msgid "Qabul kunlari"
+msgstr "Дни приема"
+
+#: .\templates\managment.html:25 .\templates\sections.html:25
+msgid "Tarjimai hol"
+msgstr "Биография "
+
+#: .\templates\managment.html:26 .\templates\sections.html:26
+msgid "Funksiya va vazifalar"
+msgstr "Функция и задачи"
+
+#: .\templates\news.html:62
+msgid "Davomi..."
+msgstr "Продолжение..."
+
+#: .\templates\regional.html:19
+msgid "Manzil:"
+msgstr "Расположение:"
+
+#: .\templates\regional.html:20
+msgid "Boshqarma boshlig\\"
+msgstr "Head of Department"
+
+#: .\templates\regional.html:21
+#, fuzzy
+#| msgid "Manzil:"
+msgid "Manzil"
+msgstr "Расположение:"
+
+#: .\templates\search.html:40
+msgid "Qidiruv bo\\"
+msgstr "Результаты поиска не найдены:)"
+
+#: .\ven\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\ven\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\paginator.py:51
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\paginator.py:53
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\paginator.py:58
+msgid "That page contains no results"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:93
+#: .\ven\Lib\site-packages\django\forms\fields.py:675
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:150
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:161
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\ven\Lib\site-packages\django\core\validators.py:262
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:269
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:278
+#: .\ven\Lib\site-packages\django\core\validators.py:288
+#: .\ven\Lib\site-packages\django\core\validators.py:311
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:296
+#: .\ven\Lib\site-packages\django\core\validators.py:312
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:306
+#: .\ven\Lib\site-packages\django\core\validators.py:310
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:340
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:346
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:379
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:388
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:398
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:413
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:432
+#: .\ven\Lib\site-packages\django\forms\fields.py:292
+#: .\ven\Lib\site-packages\django\forms\fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:439
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:444
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:506
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\core\validators.py:559
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\base.py:1197
+#: .\ven\Lib\site-packages\django\forms\models.py:768
+#, fuzzy
+#| msgid "Bandlik"
+msgid "and"
+msgstr "Занятость"
+
+#: .\ven\Lib\site-packages\django\db\models\base.py:1199
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:100
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:101
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:102
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:103
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:107
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:126
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:958
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:959
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:961
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1002
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1096
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1145
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1147
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1290
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1150
+msgid "Date (without time)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1288
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1292
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1296
+msgid "Date (with time)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1444
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1446
+msgid "Decimal number"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1585
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1588
+msgid "Duration"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1638
+msgid "Email address"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1661
+msgid "File path"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1727
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1729
+msgid "Floating point number"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1767
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1769
+msgid "Integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1852
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1867
+msgid "Small integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1875
+msgid "IPv4 address"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1906
+msgid "IP address"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1986
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1987
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:1989
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2043
+msgid "Positive big integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2056
+msgid "Positive integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2069
+msgid "Positive small integer"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2083
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2115
+msgid "Text"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2181
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2183
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2186
+msgid "Time"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2312
+msgid "URL"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2334
+msgid "Raw binary data"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2399
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\__init__.py:2401
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\files.py:226
+msgid "File"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\files.py:375
+msgid "Image"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:790
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:792
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:1045
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:1099
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:1100
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\db\models\fields\related.py:1142
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\ven\Lib\site-packages\django\forms\boundfield.py:150
+msgid ":?.!"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:54
+msgid "This field is required."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:402
+#: .\ven\Lib\site-packages\django\forms\fields.py:1143
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:426
+#: .\ven\Lib\site-packages\django\forms\fields.py:1144
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:454
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:488
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:489
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:549
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:550
+msgid "No file was submitted."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:551
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:553
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:556
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:617
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:779
+#: .\ven\Lib\site-packages\django\forms\fields.py:869
+#: .\ven\Lib\site-packages\django\forms\models.py:1309
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:870
+#: .\ven\Lib\site-packages\django\forms\fields.py:985
+#: .\ven\Lib\site-packages\django\forms\models.py:1308
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:986
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:1202
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\fields.py:1232
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\ven\Lib\site-packages\django\forms\forms.py:76
+msgid ":"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\forms.py:203
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\formsets.py:370
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\forms\formsets.py:377
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\forms\formsets.py:405
+#: .\ven\Lib\site-packages\django\forms\formsets.py:412
+msgid "Order"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\formsets.py:417
+msgid "Delete"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:763
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:767
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:773
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:782
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:1109
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:1193
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\models.py:1311
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\utils.py:172
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:403
+msgid "Clear"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:404
+msgid "Currently"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:405
+msgid "Change"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:714
+msgid "Unknown"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:715
+msgid "Yes"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\forms\widgets.py:716
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:805
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:834
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:851
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:853
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:855
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:857
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:859
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\template\defaultfilters.py:861
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:66
+msgid "p.m."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:67
+msgid "a.m."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:72
+msgid "PM"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:73
+msgid "AM"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:146
+msgid "midnight"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dateformat.py:148
+msgid "noon"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "January"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "February"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "March"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "April"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "May"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:14
+msgid "June"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:15
+msgid "July"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:15
+msgid "August"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:15
+msgid "September"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:15
+msgid "October"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:15
+msgid "November"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:16
+msgid "December"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "jan"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "feb"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "mar"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "apr"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "may"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:19
+msgid "jun"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "jul"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "aug"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "sep"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "oct"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "nov"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:20
+msgid "dec"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\text.py:71
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\text.py:240
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\ven\Lib\site-packages\django\utils\text.py:259
+#: .\ven\Lib\site-packages\django\utils\timesince.py:94
+msgid ", "
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:61
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:111
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:338
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:594
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\dates.py:628
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\static.py:42
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\ven\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\ven\Lib\site-packages\modeltranslation\widgets.py:25
+msgid "None"
+msgstr ""

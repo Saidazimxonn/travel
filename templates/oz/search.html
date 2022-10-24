@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+<main>
+    <section class="section1 article-news my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 col-12 m-auto">
+                    <div class="row mb-5 ch">
+                        <div class="col-md-3 col-6">
+                            <div class="text-uppercase py-1 py-md-2 r pl-4">Qidiruv natijasi</div>
+                        </div>
+                    </div>
+                    {% if object_list %}
+                    {% for region in object_list %}
+
+
+
+                    <div class="personalBlock">
+
+
+                        <div class="personalCard">
+                            <a href="{% url 'news_d' region.slug %}">
+                                <div class="personalCardName">{{region.title}}</div>
+                            </a>
+                            <!-- <div class="personalCardRecDays">{{region.title}}</div> -->
+                            <div class="personalCardRecDays"><i class="bx bx-calendar"></i>{{ region.date.date}}</div>
+
+        
+                            <div id="functions" class="personalBiography">
+                                <p style="text-align: justify;">
+                                <p style="text-align: center; "><b>{{region.functions_tasks}}</b></p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    {% endfor %}
+                    {% else %}
+                    <h1>{% trans 'Qidiruv bo\'yicha ma\'lumot topilmadi' %}</h1>
+                    {% endif %}
+                </div>
+
+                
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+</main>
+{% endblock content %}

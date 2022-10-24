@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+<main>
+    <section class="section1 article-news my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 col-12 m-auto">
+                    <div class="row mb-5 ch">
+                        <div class="col-md-3 col-6">
+                            <div class="text-uppercase py-1 py-md-2 r pl-4">Hokimlik aparati</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-12 row pr-0">
+                        <div class="col-md-8 col-12">
+                            <p>
+                                Shahar hokimligi devoni: <br>
+                            <ul>
+                                <li>
+                                    Sohalar va hududlarda oʼtkazilayotgan islohotlarni chuqurlashtirish yuzasidan ishlab
+                                    chiqilgan maqsadli dasturlarning amalda bajarilishini taʼminlaydi;
+                                </li>
+                                <li>
+                                    Hokimlik muhokamasiga kiritilayotgan hujjatlar loyihalarini belgilangan muddatda
+                                    ishlab chiqilishini tashkil qiladi. Yuqori tashkilotlar hamda hokimning qaror va
+                                    farmoyishlarining mahalliy boshqaruv organlari hamda idoralari tomonidan oʼz vaqtida
+                                    bajarilishini taʼminlaydi va nazoratini tashkil qiladi;
+                                </li>
+                                <li>
+                                    Vakolatiga taalluqli masalalar boʼyicha tahliliy hujjatlarni tayyorlaydi va
+                                    hokimlikka tushgan axborot, taklif va mulohazalarni umumlashtiradi. Shahar hokimligi
+                                    devoni boʼlinmalari faoliyatiga shahar hokimi va hokim oʼrinbosarlari rahbarlik
+                                    qiladi. Ularning ichki devon va hujjatlar bilan ishlash borasidagi faoliyati
+                                    tashkiliy-nazorat guruhi tomonidan muvofiqlashtirib boriladi.
+                                </li>
+                            </ul>
+                            </p>
+                            {% for i in sections_list %}
+                            <div class="row mb-5 pb-md-5 ch2">
+                                <div class="col-md-2 col-12">
+                                    <div class="card1">
+                                        <div class="img-top">
+                                            <img src="{{i.image.url}}" width="100%" class="img-fluid img-w" alt="">
+                                        </div>
+                                        <div class="k"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-10 col-12 mt-4 mt-md-0 pt-3">
+                                    <h4 class="text-uppercase">{{ i.title }}</h4>
+                                    <h5 style="color: #007bff">{{ i.name }}</h5>
+                                    <p><i class="fa fa-phone"></i> <b>Telefon:</b> {{ i.phone }}</p>
+                                    <p><i class="fa fa-fax"></i> <b>Faks:</b> {{ i.phone }}</p>
+                                    <p><i class="fa fa-envelope"></i> <b>Elektron pochta:</b> {{ i.email }}</p>
+                                    <p><i class="fa fa-clock"></i> Fuqarolarni qabul qilish kunlari: {{i.acceptance_dates }}</p>
+                                    <p>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample{{i.id}}" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Biografiya
+                                        </a>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExamplee{{i.id}}" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Majburiyatlar
+                                        </a>
+                                        
+                                      </p>
+                                      <div class="collapse" id="collapseExample{{i.id}}">
+                                        <div class="card card-body">
+                                            {{ i.biography }}
+                                        </div>
+                                      </div>
+                                      <div class="collapse" id="collapseExamplee{{i.id}}">
+                                        <div class="card card-body">
+                                            {{ i.functions_tasks }}
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class="col-md-4 col-12 mt-1 bg-color pt-4 mb-2">
+                            <h4 class="text-uppercase mb-4">Yangiliklar</h4>
+                            {% for new in news %}
+                            <div class="col-md-12 row mt-3 mb-4 pr-0">
+                                <div class="col-md-4 p-0">
+                                    <a href="{% url 'news_d' new.slug%}">
+                                        <img src="{{new.image.url}}" width="100%">
+                                    </a>
+                                </div>
+                                <div class="col-md-8 pr-0">
+
+                                    <a href="{% url 'news_d' new.slug %}" style="color: white"><b>{{new.title}}i</b></a>
+                                    <p class="m-0">{{new.date.date}}</p>
+                                </div>
+                            </div>
+                            <hr />
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock content %}

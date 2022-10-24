@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<style>
+    .sss iframe {
+        width: 100%;
+        height: 15rem;
+    }
+</style>
+<main>
+    <section class="section1 article-news my-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-11 col-12 m-auto">
+                    <div class="row mb-5 ch">
+                        <div class="col-md-3 col-6">
+                            <div class="text-uppercase py-md-2 py-1 r pl-4">Video galereya</div>
+                        </div>
+                    </div>
+                    <div class="row mb-3 mb-md-5">
+                        {% for video in media_vedio_list %}
+                       
+                        <div class="col-md-4 col-12 pl-3 pr-3 pb-2">
+                            <div class="img-fluid img-wi video-y sss">
+                                {{ video.body|safe }}
+                                <h2 class="title">{{ video.nomi }}</h2>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="row pt-5 my-5">
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 pt-3 pl-3">
+                <nav aria-label="Page navigation example"></nav>
+                {% if is_paginated %}
+                <ul class="pagination">
+                  {% if page_obj.has_previous %}
+                    <li  class="page-item"><a class="page-link"  aria-label="Previous" href="?page={{ page_obj.previous_page_number }}" >&laquo;</a></li>
+                  {% else %}
+                    <li  class="page-item disabled" ><span class="page-link">&laquo;</span></li>
+                  {% endif %}
+                  {% for i in paginator.page_range %}
+                    {% if page_obj.number == i %}
+                      <li  class="page-item active" ><span  class="page-link" href="#" >{{ i }} <span class="sr-only">(current)</span></span></li>
+                    {% else %}
+                      <li class="page-item"><a class="page-link"  href="?page={{ i }}">{{ i }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                  {% if page_obj.has_next %}
+                    <li class="page-item"><a class="page-link"  aria-label="Next" href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                  {% else %}
+                    <li  class="page-item disabled" ><span class="page-link">&raquo;</span></li>
+                  {% endif %}
+                </ul>
+              {% endif %}
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock content %}

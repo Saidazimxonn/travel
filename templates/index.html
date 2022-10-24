@@ -1,0 +1,465 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+    {% block content %}
+        <main>
+            <section class="top-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-11 col-12 m-auto">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    {% for i in news1 %}
+                                    <a href="{% url 'news_d' i.slug %}">
+                                    <div class="image py-3">
+                              
+                                            <img src="{{i.image.url}}" class="img-fluid img-s img-thumbnail"
+                                            alt="{{i.title}}">
+                                       
+                                        <div class="bottom-bottom1 p-3">
+                                      
+                                                <h6 style="font-size: 17px;">
+                                                    {{i.title}} <div
+                                                        class="text-right"><i>{{i.date.date}}</i></div>
+                                                </h6>
+                                   
+                                        </div>
+                                    </div>
+                                </a>
+                                    {% endfor %}
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <div class="row">
+                                        {% for i in news2 %}
+                                        <a href="{% url 'news_d' i.slug %}">
+                                        <div class="col-md-12 col-12">
+                                            <div class="image pt-3">
+                                              
+                                                    <img src="{{i.image.url}}" class="img-fluid img-s img-thumbnail"
+                                                    alt="{{i.title}}">
+                                                
+                                                <div class="bottom-bottom p-3">
+                                            
+                                                        <h6  style="font-size: 13px;">{{i.title}} <div class="text-right"><i> {{i.date.date}}</i></div>
+                                                        </h6>
+                                             
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<section class="article-news my-md-5">
+	<div class="container-fluid">
+                    <div class="col-md-11 col-12 m-auto">
+
+                           <div class="row top-section">
+                            <div class="col-md-11 col-12 m-auto">
+                                <div class="row">
+    
+                                    <div class="col-md-12 col-12">
+                                        <div class="row">
+                                            {% for i in news3 %}
+ 			      
+                                            <div class="col-md-4 col-4">
+ 			 			<a href="{% url 'news_d' i.slug %}">
+                                                <div class="image pt-3">
+                                                   
+                                                        <img src="{{i.image.url}}" class="img-fluid img-s img-thumbnail"
+                                                        alt="{{i.title}}"  >
+                                                   
+                                                    <div class="bottom-bottom p-3">
+                                                      
+                                                            <h6  style="font-size: 13px;">{{i.title|title|truncatewords:10}} <div class="text-right"><i> {{i.date.date}}</i></div>
+                                                            </h6>
+                                                        
+                                                    </div>
+                                                </div></a>
+                                            </div> 
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ </div>
+                </div>
+
+ </section>
+
+	<section class="article-news my-md-5 mt-4">
+	<div class="container-fluid">
+                    <div class="col-md-11 col-12 m-auto">
+
+            <div class="row mb-5 ch">
+                            <div class="col-md-3 col-6">
+                                <div class="text-uppercase py-1 py-sm-2 r pl-4">E'lonlar</div>
+                            </div>
+                            <div class="col-md-3 col-6 offset-md-6 text-right mt-2 mt-md-0 pt-md-4 pb-0">
+                                <a href="{% url 'elonlar' %}">Barchasi</a>
+                            </div>
+                        </div>
+                        <div class="row top-section">
+                            <div class="col-md-11 col-12 m-auto">
+                                <div class="row">
+    
+                                    <div class="col-md-12 col-12">
+                                        <div class="row">
+                                            {% for i in poster %}
+ 			      
+                                            <div class="col-md-4 col-4">
+ 			 <a href="{% url 'posts_d' i.slug %}">
+                                                <div class="image pt-3">
+                                                   
+                                                        <img src="{{i.image.url}}" class="img-fluid img-s img-thumbnail"
+                                                        alt="{{i.title}}"  >
+                                                   
+                                                    <div class="bottom-bottom p-3">
+                                                      
+                                                            <h6  style="font-size: 13px;">{{i.title|title|truncatewords:10}} <div class="text-right"><i> {{i.date.date}}</i></div>
+                                                            </h6>
+                                                        
+                                                    </div>
+                                                </div></a>
+                                            </div> 
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ </div>
+                </div>
+
+ </section>
+<style>.counter:hover{background: #40abee; color: #fff;}</style>
+              <section class="article-news my-md-5">
+                <div class="container-fluid">
+                    <div class="col-md-11 col-12 m-auto">
+                        <div class="row my-5 pt-5 ch">
+                            <div class="col-md-4 col-10">
+                                <div class="text-uppercase py-1 py-md-2 r2 pl-4">Asosiy makro-iqtisodiy ko‘rsatkichlar</div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">6 808</h2> mlrd. so‘m
+                                        <h6>Sanoat mahsuloti <br />uchun</h6>
+                                    </div>
+                                </a> 
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">4453</h2>
+                                        <h6>Isteʼmol tovarlari<br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">2033</h2>
+                                        <h6>Hududiy sanoat  <br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">258</h2>
+                                        <h6>Qishloq xo‘jaligi mahsulotlari <br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">1401</h2>mlrd. so‘m
+                                        <h6>Qurilish </h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">3314</h2>mlrd. so‘m
+                                        <h6>Asosiy kapitalga investitsiyalar  <br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">3920</h2>mlrd. so‘m
+
+                                        <h6>Chakana savdo aylanmasi <br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="#" target="_blank">
+                                    <div class="card-body counter bg-info-xak-hover text-center">
+                                        <h2 class="count">7858</h2>mlrd. so‘m
+
+                                        <h6>Jami xizmatlar<br />uchun</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         
+
+            <section class="article-news my-md-5">
+                <div class="container-fluid">
+                    <div class="col-md-11 col-12 m-auto">
+                        <div class="row mb-5 ch">
+                            <div class="col-md-3 col-6">
+                                <div class="text-uppercase py-sm-2 py-1 r pl-sm-4 pl-1">Foto lavhalar</div>
+                            </div>
+                            <div class="col-md-3 col-6 offset-md-6 text-right mt-2 mt-md-0 pt-sm-4 pb-0">
+                                <a href="{% url 'photo' %}">Barchasi</a>
+                            </div>
+                        </div>
+                      
+                        <div class="row top-section">
+                            <div class="col-md-11 col-12 m-auto">
+                                <div class="row">
+    
+                                    <div class="col-md-12 col-12">
+                                        <div class="row">
+                                            {% for i in media_photo_list %}
+                                           
+                                            <div class="col-md-4 col-4">
+                                                <a href="{% url 'photo_detail' i.slug %}">
+                                                <div class="image pt-3">
+                                                   
+                                                        <img src="{{i.fiel_name.url}}" class="img-fluid img-s img-thumbnail "
+                                                        alt="{{i.title}}">
+                                                  
+                                                    <div class="bottom-bottom p-3">
+                                                      
+                                                            <h6 style="font-size: 13px;">{{i.nomi}} <div class="text-right"><i> {{i.date.date}}</i></div>
+                                                            </h6>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            </div>
+                                      
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-5 ch mt-5">
+                            <div class="col-md-3 col-6">
+                                <div class="text-uppercase py-sm-2 py-1 r pl-2 pl-md-4">Interaktiv xizmatlar</div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-12">
+                                <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row card-style mt-5">
+                                                <div class="col-md-3 col-10 offset-1 offset-md-0 mt-md-0 pt-3 px- ">
+                                                    <div class="card border-0">
+                                                        <div class="card-body position-relative pt-5">
+                                                            <div class="avatar">
+                                                                <img src="{% static 'template0/images/icon-png/008-government.png' %}"
+                                                                    alt="">
+                                                            </div>
+                                                            <h6 class="text-uppercase mt-4">Yagona interaktiv davlatlari
+                                                                portali orqali ko`rsatiladigan xizmatlar</h6>
+                                                            <a href="https://my.gov.uz/" target="_blank"
+                                                                class="text-white text-decoration-none btn btn-color px-5">
+                                                                Batafsil </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-12 d-none d-md-block mt-5 mt-md-0 pt-3  ">
+                                                    <div class="card border-0">
+                                                        <div class="card-body position-relative pt-5">
+                                                            <div class="avatar">
+                                                                <img src="{% static 'template0/images/icon-png/1554356696-rJQVDYoP0ZPRynaRV0mk.png' %}" alt="">
+                                                            </div>
+                                                            <h6 class="text-uppercase mt-4">O`zbekiston Respublikasi ochiq ma'lumotlar portali</h6>
+                                                            <a href="https://data.gov.uz/uz/oz" target="_blank"
+                                                                class="text-white text-decoration-none btn btn-color px-5">
+                                                                Batafsil </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-12 d-none d-md-block mt-5 mt-md-0 pt-3  ">
+                                                    <div class="card border-0">
+                                                        <div class="card-body position-relative pt-5">
+                                                            <div class="avatar">
+                                                                <img src="{% static 'template0/images/icon-png/083-vote.png' %}" alt="">
+                                                            </div>
+                                                            <h6 class="text-uppercase mt-4">Davlat xizmatlari Agentligi
+                                                                veb-sayti orqali ko'rsatiladigan xizmatlar</h6>
+                                                            <a href="http://davxizmat.uz/uz/services" target="_blank"
+                                                                class="text-white text-decoration-none btn btn-color px-5">
+                                                                Batafsil </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-12 d-none d-md-block mt-5 mt-md-0 pt-3  ">
+                                                    <div class="card border-0">
+                                                        <div class="card-body position-relative pt-5">
+                                                            <div class="avatar">
+                                                                <img src="{% static 'template0/images/icon-png/001-voting.png' %}" alt="">
+                                                            </div>
+                                                            <h6 class="text-uppercase mt-4">Samarqand viloyatidagi davlat
+                                                                xizmatlari markazlari bilan bog'lanish</h6>
+                                                            <a href="http://davxizmat.uz/uz/menu/Samarqand-viloyati"
+                                                                target="_blank"
+                                                                class="text-white text-decoration-none btn btn-color px-5">
+                                                                Batafsil </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        
+                        <div class="row my-5 pt-5 ch">
+                            <div class="col-md-4 col-10">
+                                <div class="text-uppercase py-1 py-md-2 r2 pl-4">Davlat resurslariga havolalar</div>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_1.gif' %}"
+                                            alt="О'zbekiston Respublikasi <br/>Hukumat portali">
+                                        <h6>О'zbekiston Respublikasi <br />Hukumat portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.press-service.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_2.gif' %}"
+                                            alt="О‘zbekiston Respublikasi Prezident matbuot xizmati">
+                                        <h6>О‘zbekiston Respublikasi Prezident matbuot xizmati</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.senat.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_3.gif' %}"
+                                            alt="О‘zbekiston Respublikasi Oliy Majlisining Senati">
+                                        <h6>О‘zbekiston Respublikasi Oliy Majlisining Senati</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.parliament.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_4.gif' %}"
+                                            alt="О‘zbekiston Respublikasi Oliy Majlisi Konunchilik Palatasi">
+                                        <h6>О‘zbekiston Respublikasi Oliy Majlisi Konunchilik Palatasi</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.dd.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_5.gif' %}"
+                                            alt="О‘zbekiston Respublikasi <br/>davlat dasturlari portali">
+                                        <h6>О‘zbekiston Respublikasi <br />davlat dasturlari portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.lex.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_6.gif' %}"
+                                            alt="Qonun hujjatlari <br/>ma’lumotlari milliy bazasi">
+                                        <h6>Qonun hujjatlari <br />ma’lumotlari milliy bazasi</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.my.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_7.gif' %}"
+                                            alt="Yagona interaktiv davlat xizmatlari portali">
+                                        <h6>Yagona interaktiv davlat xizmatlari portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.data.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_8.gif' %}"
+                                            alt="О‘zbekiston Respublikasi Ochiq ma’lumotlar portali">
+                                        <h6>О‘zbekiston Respublikasi Ochiq ma’lumotlar portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.e-kommunal.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_9.gif' %}"
+                                            alt="Kommunal xо‘jaligi va uy-joy fondi portali">
+                                        <h6>Kommunal xо‘jaligi va uy-joy fondi portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.dxarid.uzex.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_10.gif' %}" alt="Davlat xaridlari <br/>savdo tizimi">
+                                        <h6>Davlat xaridlari <br />savdo tizimi</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.license.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_11.gif' %}"
+                                            alt="О‘zbekiston Respublikasida elektron litsenziyalash">
+                                        <h6>О‘zbekiston Respublikasida elektron litsenziyalash</h6>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-10 offset-1 offset-md-0 mt-3 mt-md-0 mb-md-3">
+                                <a class="card border-0" href="http://www.365.gov.uz/" target="_blank">
+                                    <div class="card-body bg-info-xak-hover text-center">
+                                        <img src="{% static 'images/logo/resurs_12.gif' %}"
+                                            alt="О‘zbekiston Respublikasi voqealar va tadbirlar portali">
+                                        <h6>О‘zbekiston Respublikasi voqealar va tadbirlar portali</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    {% endblock content %} 
