@@ -1,3 +1,5 @@
+from math import ceil
+from urllib import response
 from django.db import models
 from django.shortcuts import render
 from django.views.generic import TemplateView, ListView, DetailView,View
@@ -21,10 +23,13 @@ from .helpers import create_ad
 from django.contrib import messages
 from django.db.models import Q
 from django.views.generic.list import MultipleObjectMixin
+import requests
+import json
 # Create your views here.
 
 def context(request):
-    return render(request, 'base.html')
+ 
+    return render(request, 'index.html')
     
 class InformationView(DetailView):
     model = MenuCategory
@@ -62,7 +67,16 @@ class GlobaslView(TemplateView):
     model = Poster
     model = FaieldFiled
     model = Media
-    def get_context_data(self, **kwargs):
+    # def add(request):
+    #     response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
+
+    #     # Вывод 
+    #     d=response.json()
+    #     ip=d['main']['temp']
+    #     context['dt']=ip
+    #     return context
+
+    def get_context_data(self,**kwargs):
         context = super(GlobaslView, self).get_context_data(**kwargs)
         context['news1'] = Post.objects.all().order_by('-date')[0:1] 
         context['news2'] = Post.objects.all().order_by('-date')[1:3]
@@ -71,8 +85,13 @@ class GlobaslView(TemplateView):
 
         # context['categor'] = CategoryDoc.objects.all().order_by('-date')
 
-
-
+        
+        response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
+        d=response.json()
+        ip=ceil(d['main']['temp'])
+        context['dt']=ip
+        
+        
         context['poster'] = Poster.objects.all().order_by('-date')[0:3] 
         return context
 
