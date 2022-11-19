@@ -51,7 +51,7 @@ class InformationView(DetailView):
 
 class ElementView(DetailView):
     model = Information
-    template_name = 'oz/element.html'
+    template_name = 'engyaxshimanzillar/manzil.html'
     context_object_name = 'element_item'
 
     def get_context_data(self, **kwargs):
@@ -86,10 +86,10 @@ class GlobaslView(TemplateView):
         # context['categor'] = CategoryDoc.objects.all().order_by('-date')
 
         
-        response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
-        d=response.json()
-        ip=ceil(d['main']['temp'])
-        context['dt']=ip
+        # response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
+        # d=response.json()
+        # ip=ceil(d['main']['temp'])
+        context['dt']=1
         
         
         context['poster'] = Poster.objects.all().order_by('-date')[0:3] 
@@ -99,7 +99,7 @@ class GlobaslView(TemplateView):
 
 # class Category(ListView):
 class ManagmentView(TemplateView):
-    template_name = 'oz/manager.html'
+    template_name = 'Rahbaryat/rahbaryat.html'
     model = Managment
     def get_context_data(self, **kwargs):
         context = super(ManagmentView, self).get_context_data(**kwargs)
@@ -108,7 +108,7 @@ class ManagmentView(TemplateView):
 
 
 class SectionsView(TemplateView):
-    template_name = 'oz/aparats.html'
+    template_name = 'Rahbaryat/xodimlar.html'
     model = Sections
     def get_context_data(self, **kwargs):
         context = super(SectionsView, self).get_context_data(**kwargs)
@@ -126,10 +126,16 @@ class RegionalView(TemplateView):
         context['regions_list'] = RegionalCenters.objects.all().reverse()
         return context
 
+def bizhaqida(request):
+    return render(request, 'Rahbaryat/bizhaqida.html')
+
+def tuzilma(request):
+    return render(request, 'Rahbaryat/tuzilma.html')
+
 # New View
 class NewsView(ListView):
     model = Post
-    template_name = 'oz/news.html'
+    template_name = 'Matbuot/news.html'
     
     paginate_by = 10
     
@@ -181,7 +187,7 @@ class PostDetailView(DetailView):
 
 class ElonListView(ListView):
     model = Poster
-    template_name = 'oz/elonlar.html'
+    template_name = 'Matbuot/elon.html'
     context_object_name = 'elon_list'
     paginate_by = 10
 
@@ -189,18 +195,28 @@ class ElonListView(ListView):
 # Media 
 class MediaPhotoView(TemplateView):
     model = Media
-    template_name = 'oz/gallery.html'
+    template_name = 'Matbuot/foto_list.html'
     
     def get_context_data(self, **kwargs):
         context = super(MediaPhotoView, self).get_context_data(**kwargs)
         context['media_photo_list'] = Media.objects.filter(category_id=1)
         return context
 
+class MediaVideoView(TemplateView):
+    model = Media
+    template_name = 'Matbuot/video_list.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(MediaVideoView, self).get_context_data(**kwargs)
+        context['media_vedio_list'] = Media.objects.filter(category_id=2)
+        return context
+
+
 
 class PhotoDetailView(DetailView):
     model = Post
     model = Media
-    template_name = 'oz/photo_detail.html'
+    template_name = 'Matbuot/detail_foto.html'
     context_object_name = 'photo_item'
     slug_url_kwarg = 'PhotoSlug'
 
@@ -211,14 +227,6 @@ class PhotoDetailView(DetailView):
         return context
 
 
-class MediaVideoView(TemplateView):
-    model = Media
-    template_name = 'oz/video.html'
-    
-    def get_context_data(self, **kwargs):
-        context = super(MediaVideoView, self).get_context_data(**kwargs)
-        context['media_vedio_list'] = Media.objects.filter(category_id=2)
-        return context
 
 
 
@@ -261,7 +269,7 @@ class DocFile(DetailView):
     model = FaieldFiled
     model = Post
     model = CategoryDoc
-    template_name = 'oz/doc.html'
+    template_name = 'hujjatlar/hujjat_l.html'
 
     def get_context_data(self, **kwargs):
         context = super(DocFile, self).get_context_data(**kwargs)

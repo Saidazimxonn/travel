@@ -19,6 +19,8 @@ from .views import (
     PhotoDetailView,
     
     ElonListView,
+    bizhaqida,
+    tuzilma
 )
 
 
@@ -45,4 +47,8 @@ urlpatterns = [
     path('actions/', ActinView.as_view(), name="action_view"),
     path('search/', SearchResulView.as_view(), name="search"),
     path('contact/', Contact.as_view(), name="contact"),
+
+    path('bizhaqida/', bizhaqida, name='bizhaqida'),
+    path('tuzilma/', tuzilma, name='tuzilma'),
+    
 ]

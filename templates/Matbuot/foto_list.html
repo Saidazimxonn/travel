@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+       <!-- Main Content -->
+       <main id="rlr-main" class="rlr-main--fixed-top">
+        <div class="container">
+          <div class="row rlr-search-results-page__product-details justify-content-center">
+            <section class="rlr-search-results-page__product-list">
+              <div class="row rlr-listings__header">
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb rlr-breadcrumb__items">
+                    <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Boshsahifa</a></li>
+                    <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Matbuot</a></li>
+                    <li class="breadcrumb-item rlr-breadcrumb__item active" aria-current="page">Yangiliklar</li>
+                  </ol>
+                </nav>
+                <h1 class="rlr-section__heading--main">Yangiliklar</h1>
+              </div>
+              <div class="row rlr-search-results-page__card-wrapper">
+                 {% for i in media_photo_list %}
+                <div class="col-md-6 col-lg-4">
+                  <article class="rlr-postcard">
+                    <img class="rlr-postcard__thumbnail" src="{{i.fiel_name.url}}" alt="blog image" />
+                    <div class="rlr-postcard__summary">
+                      <span class="rlr-postcard__author">| {{i.date}}</span>
+                      <a href="{% url 'photo_detail' i.slug %}" class="rlr-product-card__anchor-title">
+                        <h2 class="rlr-product-card__title">{{i.nomi | title}}</h2>
+                      </a>
+                   
+                      <div class="rlr-product-card__footer">
+                      
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                {% endfor %}
+                <!-- <div class="col-md-6 col-lg-4">
+                  <article class="rlr-postcard">
+                    <img class="rlr-postcard__thumbnail" src="{% static 'assets/images/banner/banner-03-2.jpg' %}" alt="blog image" />
+                    <div class="rlr-postcard__summary">
+                      <span class="rlr-postcard__author">| 19 Jan 2022</span>
+                      <a href="./single.html" class="rlr-product-card__anchor-title">
+                        <h2 class="rlr-product-card__title">MT. Everest trekking theme</h2>
+                      </a>
+                      <p>Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+                      <div class="rlr-product-card__footer">
+                      
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <article class="rlr-postcard">
+                    <img class="rlr-postcard__thumbnail" src="{% static 'assets/images/banner/banner-03-2.jpg' %}" alt="blog image" />
+                    <div class="rlr-postcard__summary">
+                      <span class="rlr-postcard__author">| 19 Jan 2022</span>
+                      <a href="./single.html" class="rlr-product-card__anchor-title">
+                        <h2 class="rlr-product-card__title">MT. Everest trekking theme</h2>
+                      </a>
+                      <p>Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+                      <div class="rlr-product-card__footer">
+                      
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <article class="rlr-postcard">
+                    <img class="rlr-postcard__thumbnail" src="{% static 'assets/images/banner/banner-03-2.jpg' %}" alt="blog image" />
+                    <div class="rlr-postcard__summary">
+                      <span class="rlr-postcard__author">| 19 Jan 2022</span>
+                      <a href="./single.html" class="rlr-product-card__anchor-title">
+                        <h2 class="rlr-product-card__title">MT. Everest trekking theme</h2>
+                      </a>
+                      <p>Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+                      <div class="rlr-product-card__footer">
+                      
+                      </div>
+                    </div>
+                  </article>
+                </div> -->
+               
+              </div>
+              <hr class="rlr-search-results-page__divider" />
+              <nav class="rlr-pagination" aria-label="Product list navigation">
+                <ul class="pagination rlr-pagination__list">
+                  <li class="page-item rlr-pagination__page-item disabled">
+                    <a class="page-link rlr-pagination__page-link rlr-pagination__page-link--prev" href="#" aria-label="Previous">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.833 10H4.167m0 0L10 15.833M4.167 10 10 4.167" stroke="var(--body-color)" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span aria-hidden="true">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item rlr-pagination__page-item">
+                    <ul class="pagination rlr-pagination__child-list">
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">1</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">2</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">3</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">...</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">8</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">9</a></li>
+                      <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">10</a></li>
+                    </ul>
+                  </li>
+                  <li class="page-item rlr-pagination__page-item">
+                    <a class="page-link rlr-pagination__page-link rlr-pagination__page-link--next" href="#" aria-label="Next">
+                      <span aria-hidden="true">Next</span>
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.167 10h11.666m0 0L10 4.167M15.833 10 10 15.833" stroke="var(--body-color)" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+        </div>
+      </main>
+      <!-- Footer -->
+    {% endblock content %}

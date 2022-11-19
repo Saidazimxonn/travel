@@ -21,8 +21,8 @@ class Managment(models.Model):
     def __str__(self):
         return self.name
     class Meta:
-        verbose_name="Rahbaryat"
-        verbose_name_plural="Rahbaryat azolari"
+        verbose_name="Rahbaryat  AZOSI"
+        verbose_name_plural="Rahbaryat  AZOLARI"
 
 # Sections create  
 class Sections(models.Model):
@@ -41,8 +41,8 @@ class Sections(models.Model):
     def __str__(self):
         return self.name
     class Meta:
-        verbose_name="Hokimlik aparati"
-        verbose_name_plural="Hokimlik aparatlari"
+        verbose_name="Rahbaryat  XODIM"
+        verbose_name_plural="Rahbaryat XODIMLAR"
 
 # Regionalny Centers Create
 class RegionalCenters(models.Model):
@@ -54,8 +54,8 @@ class RegionalCenters(models.Model):
     def __str__(self):
             return self.name
     class Meta:
-        verbose_name="Hududiy bo'lim"
-        verbose_name_plural="Hududiy bo'limlar"
+        verbose_name="Hududiy  BO'LIM"
+        verbose_name_plural="Hududiy  BO'LIMLAR"
 
 # Post Create    
 class Post(models.Model):
@@ -70,8 +70,8 @@ class Post(models.Model):
         return self.title
 
     class Meta:
-        verbose_name="Yangilik"
-        verbose_name_plural="Yangiliklar"
+        verbose_name="Matbuot  YANGILIK"
+        verbose_name_plural="Matbuot  YANGILIKLAR"
 
 
 # LIve Messages
@@ -101,8 +101,8 @@ class Poster(models.Model):
         return self.title
 
     class Meta:
-        verbose_name="E'lon"
-        verbose_name_plural="E'lonlar"
+        verbose_name="Matbuot  E'LONLAR"
+        verbose_name_plural="Matbuot  E'LONLAR"
 
 
 
@@ -115,6 +115,9 @@ class CategoryDoc(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     def __str__(self):
         return self.name
+    class Meta:
+        verbose_name="Xujjat  TURI"
+        verbose_name_plural="Xujjatlar  TURLARI"
 
 #Faield Filed Doc
 class FaieldFiled(models.Model):
@@ -127,7 +130,9 @@ class FaieldFiled(models.Model):
 
     def __str__(self):
         return self.name
-    
+    class Meta:
+        verbose_name="Xujjat BAZASI"
+        verbose_name_plural="Xujjatlar BAZASI"
 
 
 class MenuCategory(models.Model):
@@ -138,8 +143,8 @@ class MenuCategory(models.Model):
         return self.name
     
     class Meta:
-        verbose_name="MenuCategoriya"
-        verbose_name_plural="MenuCategoriyalar"
+        verbose_name="Menyu  KATEGORYA"
+        verbose_name_plural="Menyu  KATEGORYALAR"
 
 class Information(models.Model):
     category = models.ForeignKey(MenuCategory, verbose_name='Kategoriya', on_delete=models.CASCADE)
@@ -152,8 +157,8 @@ class Information(models.Model):
         return f"{self.title} - {self.category}"
 
     class Meta:
-        verbose_name="Bolim"
-        verbose_name_plural="Bolimlar"
+        verbose_name="Menyu BO'LIM"
+        verbose_name_plural="Menyu BO'LIMLAR"
 
 
 
@@ -162,11 +167,11 @@ class Media_type(models.Model):
     date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
+        return self.name    
     
     class Meta:
-        verbose_name="Media turi"
-        verbose_name_plural="Media turlari"
+        verbose_name="Media TURI"
+        verbose_name_plural="Media TURLARI"
 
 class Media(models.Model):
     category = models.ForeignKey(Media_type, verbose_name='Media nomi', on_delete=models.CASCADE)
@@ -178,6 +183,31 @@ class Media(models.Model):
 
     def __str__(self):
         return f"{self.nomi} - {self.category}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     class Meta:
         verbose_name="Media"

@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Main Content -->
+    <main id="rlr-main" class="rlr-main--fixed-top">
+      <div class="rlr-search-results-page container">
+        <div class="rlr-search-results-page__breadcrumb-section">
+          <!-- Breadcrumb -->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb rlr-breadcrumb__items">
+              <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Boshsahifa</a></li>
+              <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Boshqarma haqida</a></li>
+              <li class="breadcrumb-item rlr-breadcrumb__item active" aria-current="page">Rahbaryat</li>
+            </ol>
+          </nav>
+          <div class="rlr-icon-text"><i class="rlr-icon-font flaticon-phone-receiver-silhouette"> </i> <span class="rlr-search-results-page__phone">Questions? +977 (985) 110-8896 </span></div>
+        </div>
+        <hr>
+        Rahbaryat
+        <hr>
+   
+        
+        <div class="row rlr-search-results-page__product-details">
+          <div class="rlr-search-results-page__product-list">
+            <div class="row rlr-search-results-page__card-wrapper">
+                {% for i in managers_list %}
+              <div class="col-md-6 col-xl-4">
+                <!-- Product card item -->
+                <article class="rlr-product-card sale" itemscope itemtype="https://schema.org/Product">
+                  <!-- Product card image -->
+                  <figure class="rlr-product-card__image-wrapper"> <img itemprop="image" src="{{i.image.url}}" alt="product-image" /></figure>
+                  <div class="rlr-product-card__detail-wrapper rlr-js-detail-wrapper">
+                    <!-- Product card header -->
+                    <header class="rlr-product-card__header">
+                      <div>
+                        <a href="./product-detail-page.html" class="rlr-product-card__anchor-title">
+                          <h2 class="rlr-product-card__title" itemprop="name">{{ i.title }}</h2>
+                        </a>
+                        <div>
+                            <hr>
+                            <a href="./product-detail-page.html" class="rlr-product-card__anchor-cat">
+                                <span class="rlr-product-card__sub-title">{{ i.name }}</span>
+                            </a>
+                           
+                            <!-- <span class="rlr-product-card__sub-title">|</span>
+                            <a href="./product-detail-page.html" class="rlr-product-card__anchor-sub-cat">
+                                <span class="rlr-product-card__sub-title">Stoke on Trent</span>
+                            </a> -->
+                        </div>
+                      </div>
+                     
+                    </header>
+                    <!-- Product card body -->
+                    <div class="rlr-product-card__details">
+                    
+                    </div>
+                    <!-- Product card footer -->
+                    <div class="rlr-product-card__footer">
+                    
+                  </div>
+                  <!-- Product card link -->
+                  <a href="./product-detail-page.html" class="rlr-product-card__anchor"></a>
+                </article>
+              </div>
+            {% endfor %}
+            </div>
+            <hr class="rlr-search-results-page__divider" />
+            <nav class="rlr-pagination" aria-label="Product list navigation">
+              <ul class="pagination rlr-pagination__list">
+                <li class="page-item rlr-pagination__page-item disabled">
+                  <a class="page-link rlr-pagination__page-link rlr-pagination__page-link--prev" href="#" aria-label="Previous">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15.833 10H4.167m0 0L10 15.833M4.167 10 10 4.167" stroke="var(--body-color)" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span aria-hidden="true">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item rlr-pagination__page-item">
+                  <ul class="pagination rlr-pagination__child-list">
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">1</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">2</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">3</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">...</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">8</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">9</a></li>
+                    <li class="page-item rlr-pagination__page-item"><a class="page-link rlr-pagination__page-link rlr-pagination__page-link--counter" href="#">10</a></li>
+                  </ul>
+                </li>
+                <li class="page-item rlr-pagination__page-item">
+                  <a class="page-link rlr-pagination__page-link rlr-pagination__page-link--next" href="#" aria-label="Next">
+                    <span aria-hidden="true">Next</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.167 10h11.666m0 0L10 4.167M15.833 10 10 15.833" stroke="var(--body-color)" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+   
+        <!-- Footer bottom -->
+      
+        {% endblock content %}

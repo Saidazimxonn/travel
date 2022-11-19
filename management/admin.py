@@ -63,6 +63,9 @@ class ManagmentAdmin(TranslationAdmin):
 @admin.register(Sections)
 class SectionsAdmin(TranslationAdmin):
     list_display = ('name', 'title', 'biography', 'functions_tasks')
+    prepopulated_fields = {
+        'slug': ['name']
+    }
 
 
 @admin.register(RegionalCenters)

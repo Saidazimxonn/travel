@@ -26,4 +26,13 @@ def extras(request):
 
             'Photo':mediaPhoto,
             'Video':mediaVideo,
-        }
+
+    }
+
+
+
+
+
+
+
+
