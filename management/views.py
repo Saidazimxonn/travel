@@ -78,9 +78,10 @@ class GlobaslView(TemplateView):
 
     def get_context_data(self,**kwargs):
         context = super(GlobaslView, self).get_context_data(**kwargs)
-        context['news1'] = Post.objects.all().order_by('-date')[0:1] 
-        context['news2'] = Post.objects.all().order_by('-date')[1:3]
-        context['news3'] = Post.objects.all().order_by('-date')[4:7]
+        context['news'] = Post.objects.all().order_by('-date')[0:7] 
+        context['media_vedio_list'] = Media.objects.filter(category_id=2)
+        # context['news2'] = Post.objects.all().order_by('-date')[1:3]
+        # context['news3'] = Post.objects.all().order_by('-date')[4:7]
         context['media_photo_list'] = Media.objects.filter(category_id=1)
 
         # context['categor'] = CategoryDoc.objects.all().order_by('-date')
@@ -94,6 +95,7 @@ class GlobaslView(TemplateView):
         
         context['poster'] = Poster.objects.all().order_by('-date')[0:3] 
         return context
+
 
 
 
