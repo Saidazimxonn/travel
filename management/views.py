@@ -79,10 +79,10 @@ class GlobaslView(TemplateView):
     def get_context_data(self,**kwargs):
         context = super(GlobaslView, self).get_context_data(**kwargs)
         context['news'] = Post.objects.all().order_by('-date')[0:7] 
-        context['media_vedio_list'] = Media.objects.filter(category_id=2)
+        context['media_vedio_list'] = Media.objects.filter(category_id=2).order_by('-date')[0:3] 
         # context['news2'] = Post.objects.all().order_by('-date')[1:3]
         # context['news3'] = Post.objects.all().order_by('-date')[4:7]
-        context['media_photo_list'] = Media.objects.filter(category_id=1)
+        context['media_photo_list'] = Media.objects.filter(category_id=1).order_by('-date')[0:3]
 
         # context['categor'] = CategoryDoc.objects.all().order_by('-date')
 
@@ -163,7 +163,7 @@ class NewsView(ListView):
 # New Ditail View
 class NewsDetailView(DetailView):
     model = Post
-    template_name = 'oz/news_detail.html'
+    template_name = 'Matbuot/detail_news.html'
     context_object_name = 'news_detail'
     slug_url_kwarg = 'NewsSlug'
 
@@ -177,7 +177,7 @@ class NewsDetailView(DetailView):
 class PostDetailView(DetailView):
     model = Post
     model = Poster
-    template_name = 'oz/post_detail.html'
+    template_name = 'Matbuot/detail_elon.html'
     context_object_name = 'post_detail'
     slug_url_kwarg = 'PostSlug'
 
@@ -235,7 +235,7 @@ class PhotoDetailView(DetailView):
 # Contact
 class Contact(TemplateView):
     model = Post
-    template_name = 'oz/contact.html'
+    template_name = 'Matbuot/contact.html'
 
 
 #Form action  

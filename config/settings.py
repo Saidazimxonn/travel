@@ -65,19 +65,19 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'admin_reorder.middleware.ModelAdminReorder',
+    
 ]
-ADMIN_REORDER = (
-    # Keep original label and models
-    'sdddddddf',
+# ADMIN_REORDER = (
+#     # Keep original label and models
+#     'sdddddddf',
 
   
 
-    # Reorder app models
-    {'app': 'management',  'label': 'group1', 'models': ('Managment', 'Sections','RegionalCenters')},
+#     # Reorder app models
+#     {'app': 'management',  'label': 'group1', 'models': ('Managment', 'Sections','RegionalCenters')},
 
   
-)
+# )
 
 ROOT_URLCONF = 'config.urls'
 # from management.models import DocFile
@@ -276,7 +276,8 @@ CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 #         #  ]),
 #     }
 # }   
-
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
 
 TEXT_ADDITIONAL_TAGS = ('iframe',)
 TEXT_ADDITIONAL_ATTRIBUTES = ('scrolling', 'allowfullscreen', 'frameborder', 'src', 'height', 'width')

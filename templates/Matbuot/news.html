@@ -24,7 +24,7 @@
                     <img class="rlr-postcard__thumbnail" src="{{i.image.url}}" alt="blog image" />
                     <div class="rlr-postcard__summary">
                       <span class="rlr-postcard__author">| {{i.date}}</span>
-                      <a href="./single.html" class="rlr-product-card__anchor-title">
+                      <a href="{% url 'news_d' i.slug %}" class="rlr-product-card__anchor-title">
                         <h2 class="rlr-product-card__title">{{i.title | title}}</h2>
                       </a>
                       <p> {{i.Text|truncatewords:50|safe}} </p>

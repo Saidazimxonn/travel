@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<main id="rlr-main" class="rlr-main--fixed-top">
+    <!-- Blog Element -->
+    <div class="container-xxl">
+        
+      <article class="rlr-article rlr-article-single--v2">
+        <div class="row rlr-listings__header">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb rlr-breadcrumb__items">
+                <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Boshsahifa</a></li>
+                <li class="breadcrumb-item rlr-breadcrumb__item"><a href="/">Matbuot</a></li>
+                <li class="breadcrumb-item rlr-breadcrumb__item active" aria-current="page">Yangiliklar</li>
+              </ol>
+            </nav>
+            <h1 class="rlr-section__heading--main">{{news_detail.title}}</h1>
+            <hr>
+          </div>
+        <header class="rlr-article__header">
+          <!-- <div class="rlr-article__header__timestamp">Published 09 April Jan 2022</div> -->
+          <h1 class="type-h1">{{news_detail.nomi}}</h1>
+          <!-- <h6 class="type-sub-title">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</h6> -->
+        </header>
+        <!-- <div class="rlr-article__featured-photo">
+          <img src="{% static './assets/images/ARBO7890.jpg' %}" alt="Featured Photo" />
+        </div> -->
+        <div class="rlr-article__wrapper">
+          <div class="content">
+            <!-- <div class="content__highlight">
+              <h2 class="type-h3">About Nagarkot</h2>
+              <p class="type-lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel
+                fringilla.
+              </p>
+            </div> -->
+            <figure>
+              <img src="{{news_detail.image.url}}" alt="Photo" />
+            </figure> 
+             <!-- <p class="type-lead">Nunc commodo eros velit, vitae tempor purus laoreet in. Fusce a condimentum magna, sit amet ultricies nibh. Vivamus tristique enim non accumsan ornare. Cras tincidunt ultrices libero nec bibendum.</p> -->
+            <p class="type-lead">news_detail
+             {{news_detail.Text|safe}}
+            </p>
+            <!-- <p class="type-lead">Mauris vitae bibendum enim. Curabitur luctus ligula purus, sit amet venenatis orcijar Vivamus tristique enim non accumsan ornare. Cras tincidunt ultrices libero nec bibendum.</p> -->
+            <!-- <blockquote>
+              <h5 class="type-h6-medium">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h5>
+              <p class="type-body content-quote__author">— Sanjeev Jha, Railar Solutions</p>
+            </blockquote> -->
+            <!-- <h5 class="type-h6-medium">Things to note</h5>
+            <p class="type-lead">Nunc commodo eros velit, vitae tempor purus laoreet in. Fusce a condimentum magna, sit amet ultricies nibh. Vivamus tristique enim non accumsan ornare. Cras tincidunt ultrices libero nec bibendum.</p> -->
+            <!-- <div class="rlr-article__badges">
+              <span class="rlr-badge rlr-badge--left rlr-badge-- rlr-badge rlr-badge--left"> Nomad </span> <span class="rlr-badge rlr-badge--left rlr-badge-- rlr-badge rlr-badge--left"> Wanderer </span>
+              <span class="rlr-badge rlr-badge--left rlr-badge-- rlr-badge rlr-badge--left"> Off the Beat </span>
+            </div> -->
+          </div>
+        </div>
+      </article>
+      <!-- Newsletter Subscription -->
+  
+    </div>
+  </main>
+  <!-- Footer -->
+
+  {% endblock content %}
+
+
+
+
+  python manage.py startapp web

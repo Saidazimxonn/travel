@@ -420,10 +420,11 @@
         <!-- Section heading -->
         <div class="rlr-section__title">
           <h2 class="rlr-section__title--main">Video lavhalar</h2>
+          <hr>
           <!-- <span class="rlr-section__title--sub">Sost Brilliant reasons Emprise should be your one-stop-shop!</span> -->
         </div>
         <div class="button-row">
-          <a href="./search-results--left-sidebar.html" class="btn rlr-button rlr-button--large rlr-button--rounded rlr-button--brand"> Hammasini ko'rish </a>
+          <a href="{% url 'video' %}" class="btn rlr-button rlr-button--large rlr-button--rounded rlr-button--brand"> Hammasini ko'rish </a>
         </div>
       </div>
       <div class="row rlr-featured__cards">
@@ -431,37 +432,21 @@
       
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-offset="250" data-aos-duration="700">
           <!-- Featured prodcut card -->
-          <article class="rlr-product-card rlr-product-card--featured" itemscope itemtype="https://schema.org/Product">
+          <article class="rlr-product-card rlr-product-card--featured" >
             <!-- Image -->
             <!-- <figure class="rlr-product-card__image-wrapper">
               <img itemprop="image" data-src="{{i.imag}}" data-srcset="{% static 'assets/images/product-images/small/featured-thumb-01.jpg' %}" data-sizes="auto" class="lazyload" alt="" />
             </figure> -->
             <!-- Card body -->
             {{i.body|safe}}
-            <div class="rlr-product-card--featured__inner">
-              <!-- <span class="rlr-badge rlr-badge--right rlr-badge-- rlr-badge--abs rlr-badge--abs-right"> 4.9 </span> -->
-              <div class="rlr-product-card--featured__body card-img-overlay">
-                <div class="rlr-product-card--featured__duration">
-                  <!-- <p class="body">10 Days | 09 Nights</p>
-                  <h4 class="type-h4">$895.50</h4> -->
-                </div>
-                <div class="rlr-product-detail-header__actions">
-                  <div class="rlr-product-detail-header__button-wrapper">
-                    <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--no-bg rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                      <!-- <i class="rlr-icon-font flaticon-heart-1"> </i> -->
-                    </button>
-                    <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                  </div>
-                  <!-- <a href="#" class="btn rlr-button product-card-buttonrlr-button--medium rlr-button--rounded rlr-button--brand"> Batafsil </a> -->
-                </div>
-              </div>
-            </div>
+          
             <!-- <a href="#" class="rlr-product-card__anchor rlr-product-card__anchor--featured"></a> -->
+            <h4 class="type-h6-semi-bold" style="text-align: center;padding-bottom:20px"> {{i.nomi}}</h4>
           </article>
           <!-- Summary -->
           <div class="rlr-product-card--featured__summary">
-            <h4 class="type-h6-semi-bold">Train Tour Skyline</h4>
-            <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p>
+            
+            <!-- <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p> -->
           </div>
         </div>
       {% endfor %}
@@ -470,127 +455,64 @@
   </section>
   <!-- Logo Carousel -->
 
+ <!-- Foto lavhalr Sellers -->
 
-  <!-- Best Sellers -->
-  <section class="rlr-section rlr-section__mb rlr-section__cards">
-    <div class="container">
+<section class="rlr-section rlr-section__mb rlr-section__cards">
+  <div class="container">
+    <!-- Section heading -->
+    <div class="rlr-section-header">
       <!-- Section heading -->
-      <div class="rlr-section-header">
-        <!-- Section heading -->
-        <div class="rlr-section__title">
-          <h2 class="rlr-section__title--main">Foto lavhalar</h2>
-          <span class="rlr-section__title--sub">Sost Brilliant reasons Emprise should be your one-stop-shop!</span>
-        </div>
-        <div class="button-row">
-          <a href="./search-results--left-sidebar.html" class="btn rlr-button rlr-button--large rlr-button--rounded rlr-button--brand"> Hammasini ko'rish </a>
-        </div>
+      <div class="rlr-section__title">
+        <h2 class="rlr-section__title--main">Foto lavhalar</h2>
+        <hr>
+        <!-- <span class="rlr-section__title--sub">Sost Brilliant reasons Emprise should be your one-stop-shop!</span> -->
       </div>
-      <div class="row rlr-featured__cards">
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-offset="250" data-aos-duration="700">
-          <!-- Featured prodcut card -->
-          <article class="rlr-product-card rlr-product-card--featured" itemscope itemtype="https://schema.org/Product">
-            <!-- Image -->
-            <figure class="rlr-product-card__image-wrapper">
-              <img itemprop="image" data-src="{% static 'assets/images/product-images/small/featured-thumb-01.jpg' %}" data-srcset="{% static 'assets/images/product-images/small/featured-thumb-01.jpg' %}" data-sizes="auto" class="lazyload" alt="" />
-            </figure>
-            <!-- Card body -->
-            <div class="rlr-product-card--featured__inner">
-              <span class="rlr-badge rlr-badge--right rlr-badge-- rlr-badge--abs rlr-badge--abs-right"> 4.9 </span>
-              <div class="rlr-product-card--featured__body card-img-overlay">
-                <div class="rlr-product-card--featured__duration">
-                  <p class="body">10 Days | 09 Nights</p>
-                  <h4 class="type-h4">$895.50</h4>
-                </div>
-                <div class="rlr-product-detail-header__actions">
-                  <div class="rlr-product-detail-header__button-wrapper">
-                    <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--no-bg rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                      <i class="rlr-icon-font flaticon-heart-1"> </i>
-                    </button>
-                    <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                  </div>
-                  <a href="./product-detail-page.html" class="btn rlr-button product-card-buttonrlr-button--medium rlr-button--rounded rlr-button--brand"> Explore </a>
-                </div>
-              </div>
-            </div>
-            <a href="./product-detail-page.html" class="rlr-product-card__anchor rlr-product-card__anchor--featured"></a>
-          </article>
-          <!-- Summary -->
-          <div class="rlr-product-card--featured__summary">
-            <h4 class="type-h6-semi-bold">Train Tour Skyline</h4>
-            <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-offset="300" data-aos-duration="725">
-          <!-- Featured prodcut card -->
-          <article class="rlr-product-card rlr-product-card--featured" itemscope itemtype="https://schema.org/Product">
-            <!-- Image -->
-            <figure class="rlr-product-card__image-wrapper">
-              <img itemprop="image" data-src="{% static 'assets/images/product-images/small/featured-thumb-02.jpg' %}" data-srcset="{% static 'assets/images/product-images/small/featured-thumb-02.jpg' %}" data-sizes="auto" class="lazyload" alt="" />
-            </figure>
-            <!-- Card body -->
-            <div class="rlr-product-card--featured__inner">
-              <span class="rlr-badge rlr-badge--right rlr-badge-- rlr-badge--abs rlr-badge--abs-right"> 4.9 </span>
-              <div class="rlr-product-card--featured__body card-img-overlay">
-                <div class="rlr-product-card--featured__duration">
-                  <p class="body">10 Days | 09 Nights</p>
-                  <h4 class="type-h4">$895.50</h4>
-                </div>
-                <div class="rlr-product-detail-header__actions">
-                  <div class="rlr-product-detail-header__button-wrapper">
-                    <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--no-bg rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                      <i class="rlr-icon-font flaticon-heart-1"> </i>
-                    </button>
-                    <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                  </div>
-                  <a href="./product-detail-page.html" class="btn rlr-button product-card-buttonrlr-button--medium rlr-button--rounded rlr-button--brand"> Explore </a>
-                </div>
-              </div>
-            </div>
-            <a href="./product-detail-page.html" class="rlr-product-card__anchor rlr-product-card__anchor--featured"></a>
-          </article>
-          <!-- Summary -->
-          <div class="rlr-product-card--featured__summary">
-            <h4 class="type-h6-semi-bold">Train Tour Skyline</h4>
-            <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-offset="350" data-aos-duration="750">
-          <!-- Featured prodcut card -->
-          <article class="rlr-product-card rlr-product-card--featured" itemscope itemtype="https://schema.org/Product">
-            <!-- Image -->
-            <figure class="rlr-product-card__image-wrapper">
-              <img itemprop="image" data-src="{% static 'assets/images/product-images/small/featured-thumb-03.jpg' %}" data-srcset="{% static 'assets/images/product-images/small/featured-thumb-03.jpg' %}" data-sizes="auto" class="lazyload" alt="" />
-            </figure>
-            <!-- Card body -->
-            <div class="rlr-product-card--featured__inner">
-              <span class="rlr-badge rlr-badge--right rlr-badge-- rlr-badge--abs rlr-badge--abs-right"> 4.9 </span>
-              <div class="rlr-product-card--featured__body card-img-overlay">
-                <div class="rlr-product-card--featured__duration">
-                  <p class="body">10 Days | 09 Nights</p>
-                  <h4 class="type-h4">$895.50</h4>
-                </div>
-                <div class="rlr-product-detail-header__actions">
-                  <div class="rlr-product-detail-header__button-wrapper">
-                    <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--no-bg rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
-                      <i class="rlr-icon-font flaticon-heart-1"> </i>
-                    </button>
-                    <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
-                  </div>
-                  <a href="./product-detail-page.html" class="btn rlr-button product-card-buttonrlr-button--medium rlr-button--rounded rlr-button--brand"> Explore </a>
-                </div>
-              </div>
-            </div>
-            <a href="./product-detail-page.html" class="rlr-product-card__anchor rlr-product-card__anchor--featured"></a>
-          </article>
-          <!-- Summary -->
-          <div class="rlr-product-card--featured__summary">
-            <h4 class="type-h6-semi-bold">Train Tour Skyline</h4>
-            <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p>
-          </div>
-        </div>
+      <div class="button-row">
+        <a href="{% url 'photo' %}" class="btn rlr-button rlr-button--large rlr-button--rounded rlr-button--brand"> Hammasini ko'rish </a>
       </div>
     </div>
-  </section>
+    {% for i in media_photo_list %}
+    <div class="row rlr-featured__cards">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-offset="250" data-aos-duration="700">
+        <!-- Featured prodcut card -->
+        <article class="rlr-product-card rlr-product-card--featured" itemscope itemtype="https://schema.org/Product">
+          <!-- Image -->
+          <figure class="rlr-product-card__image-wrapper">
+            <img itemprop="image" data-src="{{i.fiel_name.url}}" data-srcset="{{i.fiel_name.url}}" data-sizes="auto" class="lazyload" alt="" />
+          </figure>
+          <!-- Card body -->
+          <div class="rlr-product-card--featured__inner">
+            <!-- <span class="rlr-badge rlr-badge--right rlr-badge-- rlr-badge--abs rlr-badge--abs-right"> 4.9 </span> -->
+            <div class="rlr-product-card--featured__body card-img-overlay">
+              <div class="rlr-product-card--featured__duration">
+                <!-- <p class="body">10 Days | 09 Nights</p>
+                <h4 class="type-h4">$895.50</h4> -->
+              </div>
+              <div class="rlr-product-detail-header__actions">
+                <div class="rlr-product-detail-header__button-wrapper">
+                  <!-- <button type="button" class="btn rlr-button rlr-button--circle rlr-wishlist rlr-wishlist-button--no-bg rlr-wishlist-button rlr-js-action-wishlist" aria-label="Save to Wishlist">
+                    <i class="rlr-icon-font flaticon-heart-1"> </i>
+                  </button> -->
+                  <span class="rlr-product-detail-header__helptext rlr-js-helptext"></span>
+                </div>
+                <a href="./product-detail-page.html" class="btn rlr-button product-card-buttonrlr-button--medium rlr-button--rounded rlr-button--brand"> Batafsil.. </a>
+              </div>
+            </div>
+          </div>
+          <!-- <a href="./product-detail-page.html" class="rlr-product-card__anchor rlr-product-card__anchor--featured"></a> -->
+        </article>
+        <!-- Summary -->
+        <div class="rlr-product-card--featured__summary">
+          <h4 class="type-h6-semi-bold">{{i.nomi}}</h4>
+          <hr>
+          <!-- <p class="type-body">Check Out Daily Deals and Promotion on Hotels. Easy &amp; Fast Booking</p> -->
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
   <!-- Logo Carousel -->
   <section id="features" class="rlr-section rlr-section__mb landding__plugin">
     <div class="container">
@@ -650,10 +572,10 @@
               <div class="rlr-support-card__img-wrapper">
                 <img src="{% static 'assets/svg/headset.svg' %}" alt="headset" />
               </div>
-              <h2 class="rlr-support-card__title">For Sales</h2>
-              <p class="rlr-support-card__subtitle rlr-support-card__text">The Brilliant reasons Emprise be your one-stop-shop!</p>
-              <p class="rlr-support-card__text">sales@emprise.tours</p>
-              <p class="rlr-support-card__text">+977(985) 110-88-96</p>
+              <h2 class="rlr-support-card__title">Bosh boshqarma raqami</h2>
+              <p class="rlr-support-card__subtitle rlr-support-card__text">Telegram ijtimoiy tarmoqdagi kanal Samarkand Tourism Official( </p>
+              <p class="rlr-support-card__text">https://t.me/sam_turizm</p>
+              <p class="rlr-support-card__text">+998(66)231-08-57</p>
             </div>
           </div>
         </div>
@@ -663,10 +585,10 @@
               <div class="rlr-support-card__img-wrapper">
                 <img src="{% static 'assets/svg/help-circle.svg' %}" alt="headset" />
               </div>
-              <h2 class="rlr-support-card__title">Help &amp; Support</h2>
-              <p class="rlr-support-card__subtitle rlr-support-card__text">The Brilliant reasons Emprise be your one-stop-shop!</p>
-              <p class="rlr-support-card__text">sales@emprise.tours</p>
-              <p class="rlr-support-card__text">+977(985) 110-88-96</p>
+              <h2 class="rlr-support-card__title">Facebok ijtimoiy tarmoqdagi sahifa</h2>
+              <p class="rlr-support-card__subtitle rlr-support-card__text">Samarqand viloyati Turizm va madaniy meros bosh boshqarmasi</p>
+              <p class="rlr-support-card__text">https://www.facebook.com/visitsamarkand</p>
+              <p class="rlr-support-card__text">+998(66)231-08-57</p>
             </div>
           </div>
         </div>
