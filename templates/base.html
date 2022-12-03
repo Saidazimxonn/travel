@@ -18,14 +18,16 @@
 
   <body class="rlr-body">
     <!-- Header -->
+   
     <header>
+     
       <nav id="navigation" class="navigation rlr-navigation default-nav fixed-top">
         <!-- Logo -->
         <div class="navigation-header">
           <div class="navigation-brand-text">
             <div class="rlr-logo rlr-logo__navbar-brand rlr-logo--default">
               <a href="/">
-                <img src="{% static 'assets/svg/DZ7yjLNWsAAACq3.jpg' %}" alt="#" class="" />
+                <img src="{% static 'assets/images/logos/uzbekistan_tourism-01.png' %}"style="width: 150px;" alt="#" class="" />
               </a>
             </div>
           </div>
@@ -33,24 +35,13 @@
             <span class="rlr-sVGIcon"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-menu"> </i> </span>
           </div>
         </div>
-        <div class="navigation-header">
-          <div class="navigation-brand-text">
-            <div class="rlr-logo rlr-logo__navbar-brand rlr-logo--default">
-              <a href="/">
-                <img src="{% static 'assets/svg/DZ7yjLNWsAAACq3.jpg' %}" alt="#" class="" />
-              </a>
-            </div>
-          </div>
-          <div class="navigation-button-toggler">
-            <span class="rlr-sVGIcon"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-menu"> </i> </span>
-          </div>
-        </div>
+      
         <div class="navigation-body rlr-navigation__body container">
           <div class="navigation-body-header rlr-navigation__body-header">
             <div class="navigation-brand-text">
               <div class="rlr-logo rlr-logo__navbar-brand rlr-logo--default">
                 <a href="/">
-                  <img src="{% static 'assets/svg/DZ7yjLNWsAAACq3.jpg' %}" alt="#" class="" />
+                  <img src="{% static 'assets/images/logos/uzbekistan_tourism-01.png' %}" style="width: 200px;" alt="#" class="" />
                 </a>
               </div>
             </div>
@@ -62,7 +53,7 @@
             <!-- Dropdown menu 1 -->
             <li class="navigation-item is-active">
               <a class="navigation-link" href="#">Boshsahifa</a>
-              <ul class="navigation-dropdown">
+              <!-- <ul class="navigation-dropdown">
                 <li class="navigation-dropdown-item">
                   <a class="navigation-dropdown-link" href="./home-page.html">Default</a>
                 </li>
@@ -84,7 +75,7 @@
                 <li class="navigation-dropdown-item">
                   <a class="navigation-dropdown-link" href="./home-page--yellow.html">Theme Yellow</a>
                 </li>
-              </ul>
+              </ul> -->
             </li>
             <li class="navigation-item is-active">
               <a class="navigation-link" href="./home-page.html">Boshqarma haqida</a>
@@ -190,219 +181,20 @@
                 {% endfor %}
               
               </ul>
-            </li>
+            </li>  
             <!-- Dropdown menu 2 -->
             <li class="navigation-item">
               <a class="navigation-link" href="{% url 'contact' %}"> Aloqa </a>
             </li>
-            <!-- Mega menu -->
-            <li class="navigation-item has-submenu">
-              <a class="navigation-link" href="#">PAGE</a>
-              <ul class="navigation-megamenu navigation-submenu">
-                <li class="navigation-megamenu-container">
-                  <ul class="navigation-row">
-                    <!-- Mega menu col 1 -->
-                    <li class="navigation-col">
-                      <ul class="navigation-list">
-                        <li class="navigation-list-heading rlr-navigation-list-heading--tall">
-                          <a href="#">Inner Pages</a>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-ph-hand-waving-light"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./about.html"> About Us</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-whatsapp"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./contact.html"> Contact Us</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-carbon-location"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./contact--v2.html"> Contact V2</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-add-list"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./gallery-page.html"> Travel Gallery</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-feedback"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./404.html"> 404 Error Page</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <!-- Mega menu col 2 -->
-                    <li class="navigation-col">
-                      <ul class="navigation-list">
-                        <li class="navigation-list-heading rlr-navigation-list-heading--tall">
-                          <a href="#">Account Pages</a>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-add-user"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./account-pages--signup.html"> Account Signup</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-user"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./account-pages--login.html"> User Login</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-padlock"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./account-pages--forgot-password.html"> Forgot Password</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-verified"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./account-pages--verification.html"> ID Verification</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-dashboard"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./my-account-pages--order.html"> User Dashboard</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <!-- Mega menu col 4 -->
-                    <li class="navigation-col">
-                      <ul class="navigation-list">
-                        <li class="navigation-list-heading rlr-navigation-list-heading--tall">
-                          <a href="#">Ecommerce Pages</a>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-sunny"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./checkout-page.html"> Checkout Page</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-wine"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./order-received.html"> Order Received</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-sidebar"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./my-account-pages--dashboard.html"> User Profile</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-sidebar-1"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./my-account-pages--order.html"> Your Orders</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-shopping"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./my-account-pages--subscription.html"> Subscriptions</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <!-- Mega menu col 3 -->
-                    <li class="navigation-col">
-                      <ul class="navigation-list">
-                        <li class="navigation-list-heading rlr-navigation-list-heading--tall">
-                          <a href="#">General Utilities</a>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-full-screen"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./review-form-page.html"> Review a Tiur</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-sidebar-1"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./product-form.html"> Add a Tour</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-sidebar"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./icon-font-page.html"> Font Icons</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                        <li class="rlr-icon-text">
-                          <span class="rlr-step__icon rlr-step__icon--active"> <i class="rlr-icon-font rlr-icon-font--megamenu flaticon-dimensions"> </i> </span>
-                          <div class="rlr-icon-text__text-wrapper">
-                            <span class="rlr-icon-text__title"><a href="./navigation--html-signup.html"> Menu Guest User</a></span>
-                            <span class="rlr-icon-text__subtext">Add your menu subtext here</span>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+            <li class="navigation-item" style="padding-left: 10px;color:red">
+              !!!Diqqat! Veb-sayt test rejimida ishlamoqda. 
             </li>
-            <!-- Dropdown menu 2 -->
           </ul>
           <!-- User actions menu -->
           <ul class="navigation-menu rlr-navigation__menu align-to-right">
-            <!-- Currency dropdown -->
-            <!-- <li class="navigation-item">
-              <a class="navigation-link" href="#">
-                <span>USD</span>
-              </a>
-              <ul class="navigation-dropdown rlr-currency-dropdown">
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">EUR</a>
-                </li>
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">GBP</a>
-                </li>
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">CHF</a>
-                </li>
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">CAD</a>
-                </li>
-                <li class="navigation-dropdown-item">
-                  <hr class="dropdown-divider rlr-dropdown__divider" />
-                </li>
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">JPY</a>
-                </li>
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">CNH</a>
-                </li>
-              </ul> -->
+           
             </li>
+            Diqqat! Veb-sayt test rejimida ishlamoqda.
             <!-- Language dropdown -->
             <li class="navigation-item">
               <a class="navigation-link" href="#">
@@ -430,6 +222,7 @@
                       <path d="M8.86878 8.8696V8.86951L3.51397 3.51465C3.26769 3.76084 3.03275 4.01823 2.80859 4.28504L7.39311 8.86955H8.86878V8.8696Z" fill="#D80027" />
                       <path d="M15.1309 8.8698L20.4857 3.5149C20.2395 3.26862 19.9821 3.03368 19.7153 2.80957L15.1309 7.39409V8.8698Z" fill="#D80027" />
                     </g>
+                    
                     <defs>
                       <clipPath id="clip0_2101_47971">
                         <rect width="24" height="24" fill="white" />
@@ -437,6 +230,7 @@
                     </defs>
                   </svg>
                 </span>
+                
                 <span class="d-lg-none d-xxl-block">O'zbekcha</span>
               </a>
               <ul class="navigation-dropdown rlr-language-dropdown">
