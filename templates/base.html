@@ -52,7 +52,7 @@
           <ul class="navigation-menu rlr-navigation__menu rlr-navigation__menu--main-links">
             <!-- Dropdown menu 1 -->
             <li class="navigation-item is-active">
-              <a class="navigation-link" href="#">Boshsahifa</a>
+              <a class="navigation-link" href="/">Boshsahifa</a>
               <!-- <ul class="navigation-dropdown">
                 <li class="navigation-dropdown-item">
                   <a class="navigation-dropdown-link" href="./home-page.html">Default</a>
@@ -231,12 +231,24 @@
                   </svg>
                 </span>
                 
-                <span class="d-lg-none d-xxl-block">O'zbekcha</span>
+                
               </a>
               <ul class="navigation-dropdown rlr-language-dropdown">
-                <li class="navigation-dropdown-item">
-                  <a class="navigation-dropdown-link" href="#">Italiano</a>
+                {% get_current_language as LANGUAGE_CODE %}
+		            {% get_available_languages as LANGUAGES %}
+			          {% get_language_info_list for LANGUAGES as language %}
+                {% for lang in language %}
+                <li class="navigation-dropdown-item ">
+                  {% if lang.code == 'uz' %}
+                  <a class="navigation-dropdown-link" hreflang="" href="/" {% if lang.code == LANGUAGE_CODE %} id="salom" {% endif %}>O'zbekcha{{lang.name_local}}</a>
+                  {% elif lang.code == 'ru' %}
+                  <a class="navigation-dropdown-link" href="/{{lang.code}}/" {% if lang.code == LANGUAGE_CODE %} id="salom" {% endif %}>O'zbekcha{{lang.name_local}}</a>
+                  {% elif lang.code == 'en' %}
+                  <a class="navigation-dropdown-link" href="/{{lang.code}}/" {% if lang.code == LANGUAGE_CODE %} id="salom" {% endif %}>O'zbekcha{{lang.name_local}}</a>
+                  {% endif %}
                 </li>
+                {% endfor %} 
+               
                
               </ul>
             </li>

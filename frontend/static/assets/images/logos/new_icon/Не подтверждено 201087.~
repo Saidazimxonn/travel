@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <!--Meta block-->
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+<!-- SEO tags -->
+<meta name="robots" content="O‘zbekiston Respublikasi Energetika vazirligi">
+<meta name="googlebot" content="O‘zbekiston Respublikasi Energetika vazirligi">
+<title>O‘zbekiston Respublikasi Energetika vazirligi</title>
+<meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="R1cqyxSLHArjI_LhrqfpE94jB3_9Hd2syjV2bLv85yBj-gVj12BWOOrKQT0XkU-8gsgNgNE0wlmyOGcemoj28g==">
+<meta property="og:title" content="O‘zbekiston Respublikasi Energetika vazirligi">
+<meta property="og:description" content="O‘zbekiston Respublikasi Energetika vazirligi">
+<meta property="og:url" content="https://minenergy.uz/uz">
+<meta property="og:image" content="https://minenergy.uz/img/default_img.jpg">
+<link href="/assets/3f9f383b/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link href="/assets/90e4ce89/css/bootstrap.css" rel="stylesheet">
+<link href="/css/jqvmap.css" rel="stylesheet">
+<link href="/css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/media.css" rel="stylesheet">
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<script src="/assets/6dfe8eb7/jquery.js"></script>
+<script src="/assets/d6eaf275/yii.js"></script>
+<script src="/assets/3f9f383b/jquery-ui.js"></script>
+<script src="/assets/90e4ce89/js/bootstrap.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.vmap.js"></script>
+<script src="/js/vmap.uzbekistan.js"></script>
+<script src="/js/map.js"></script>
+<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/js/jquery.resizableColumns.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/jquery.nicescroll.min.js"></script>
+<script src="/js/scroll.js"></script>
+<script src="/js/specialView.js"></script>
+<script src="/js/orphus.js"></script>
+<script src="/js/responsivevoice.js"></script><!--End Meta block--></head>
+<body>
+<nav id="sidebar" class="active">
+    <a href="#" id="xclose" class="xclose"><i class="glyphicon glyphicon-remove"></i></a>
+    <div class="site_map_logo">
+        <img src="/img/gerb3.png">
+    </div>
+    <div class="logo_title">
+        O‘zbekiston Respublikasi Energetika vazirligi    </div>
+    <ul class="lang">
+            <li>
+            <a href="/ru">РУ</a>
+        </li>
+            <li class="active">
+            <a href="/uz">O'Z</a>
+        </li>
+            <li>
+            <a href="/en">EN</a>
+        </li>
+    </ul>
+
+       <ul class="list-unstyled components">
+                                 <li class="">
+                   <a href="#heading_1" data-toggle="collapse" aria-expanded="true">Vazirlik haqida</a>
+                   <ul class="collapse  list-unstyled" id="heading_1">
+                                                  <li><a href="/uz/lists/view/10">Vazirlik haqida</a></li>
+                                                  <li><a href="/uz/pages/view/college">Hay'at</a></li>
+                                                  <li><a href="/uz/lists/guide">Rahbariyat</a></li>
+                                                  <li><a href="/uz/lists/category/13">Bo‘sh ish o‘rinlari</a></li>
+                                                  <li><a href="/uz/lists/view/17">Vazirlik tuzilmasi</a></li>
+                                                  <li><a href="/uz/lists/view/11">Ilmiy-tehnik kengash</a></li>
+                                                  <li><a href="/uz/lists/view/39">Markaziy apparat </a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_2" data-toggle="collapse" aria-expanded="true">Matbuot markazi</a>
+                   <ul class="collapse  list-unstyled" id="heading_2">
+                                                  <li><a href="/uz/news/category/1">Yangiliklar</a></li>
+                                                  <li><a href="/uz/news/category/2">E'lonlar</a></li>
+                                                  <li><a href="/uz/news/category/3">Rahbariyatning chiqish va bayonotlari </a></li>
+                                                  <li><a href="/uz/pages/view/Plan">Media-reja</a></li>
+                                                  <li><a href="/uz/news/category/6">OAV biz haqimizda</a></li>
+                                                  <li><a href="/uz/pages/view/contact_smi">Axborot xizmati bilan bog‘lanish</a></li>
+                                                  <li><a href="/uz/lists/category/14">Murojaatlar statistikasi </a></li>
+                                                  <li><a href="/uz/lists/category/15">Energiya samaradorligi bo‘yicha axborot portali </a></li>
+                                                  <li><a href="minenergy.uz">O'zbekiston Qahramoni</a></li>
+                                                  <li><a href="/uz/lists/category/23">Tariflar </a></li>
+                                                  <li><a href="/uz/lists/category/27">Ochiq ma'lumotlar portali </a></li>
+                                                  <li><a href="/uz/lists/category/28">Ilmiy ishlar</a></li>
+                                                  <li><a href="/uz/lists/category/29">Rejalashtirilgan o'chirishlar</a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_3" data-toggle="collapse" aria-expanded="true">FAOLIYAT</a>
+                   <ul class="collapse  list-unstyled" id="heading_3">
+                                                  <li><a href="/uz/lists/category/17">Rivojlanish konsepsiyasi va investitsion imkoniyatlar</a></li>
+                                                  <li><a href="/uz/lists/view/29">Neft va gaz tarmog‘i</a></li>
+                                                  <li><a href="/uz/lists/view/22">Elektr energetika tarmog‘i</a></li>
+                                                  <li><a href="/uz/lists/view/46">Atom energetikasi sohasi</a></li>
+                                                  <li><a href="/uz/lists/view/32">Qayta tiklanuvchi energiya manbalari </a></li>
+                                                  <li><a href="/uz/lists/view/33">Energiya samaradorligi va energiya tejamkorligi </a></li>
+                                                  <li><a href="/uz/lists/view/23">Energetika sohasida davlat nazorati </a></li>
+                                                  <li><a href="/uz/lists/view/34">Neft va gaz sohasida davlat nazorati </a></li>
+                                                  <li><a href="/uz/lists/category/12">Xalqaro hamkorlik </a></li>
+                                                  <li><a href="/uz/lists/category/31">Korrupsiyaga qarshi kurash </a></li>
+                                                  <li><a href="/uz/lists/view/37">Odob-ahloq qoidalari </a></li>
+                                                  <li><a href="/uz/lists/view/16">Bitimlarni amalga oshirish guruhi </a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_4" data-toggle="collapse" aria-expanded="true">Hujjatlar</a>
+                   <ul class="collapse  list-unstyled" id="heading_4">
+                                                  <li><a href="/uz/lists/view/14">Qonunlar</a></li>
+                                                  <li><a href="/uz/lists/view/24">Prezident farmon, qaror va farmoyishlari </a></li>
+                                                  <li><a href="/uz/lists/view/26">Hukumat qarori va farmoyishlari </a></li>
+                                                  <li><a href="/uz/lists/view/43">Adliya vazirligida ro‘yxatdan o‘tgan me'yoriy hujjatlar</a></li>
+                                                  <li><a href="/uz/lists/category/30">Kasb standartlari</a></li>
+                                          </ul>
+               </li>
+                                            <li>
+                   <a href="/uz/lists/view/56">Bog‘lanish </a>
+               </li>
+                                            <li class="">
+                   <a href="#heading_500" data-toggle="collapse" aria-expanded="true">Yoshlar ittifoqi</a>
+                   <ul class="collapse  list-unstyled" id="heading_500">
+                                                  <li><a href="http://minenergy.uz/uz">Faoliyat</a></li>
+                                                  <li><a href="http://minenergy.uz/uz">Normativ-huquqiy hujjatlar </a></li>
+                                                  <li><a href="http://minenergy.uz/uz">Tashkiliy tuzilma</a></li>
+                                                  <li><a href="http://minenergy.uz/uz">Yangiliklar </a></li>
+                                                  <li><a href="http://minenergy.uz/uz">Foto lavha</a></li>
+                                                  <li><a href="/uz/lists/view/409">Yosh mutaxassislarni tanlash dasturi</a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_500" data-toggle="collapse" aria-expanded="true">Save Energy</a>
+                   <ul class="collapse  list-unstyled" id="heading_500">
+                                                  <li><a href="/uz/lists/category/21">Yangi</a></li>
+                                                  <li><a href="/uz/lists/view/138">Qoidalar</a></li>
+                                                  <li><a href="/uz/lists/view/139">Tanlov komissiyasi </a></li>
+                                                  <li><a href="/uz/lists/view/137">Ariza</a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_500" data-toggle="collapse" aria-expanded="true">Kasaba uyushmasi </a>
+                   <ul class="collapse  list-unstyled" id="heading_500">
+                                                  <li><a href="/uz">Yangiliklar</a></li>
+                                                  <li><a href="/uz">E'lonlar </a></li>
+                                          </ul>
+               </li>
+                                            <li class="">
+                   <a href="#heading_500" data-toggle="collapse" aria-expanded="true">Ochiq ma'lumotlar</a>
+                   <ul class="collapse  list-unstyled" id="heading_500">
+                                                  <li><a href="/uz/lists/category/27">Ochiq ma'lumotlar</a></li>
+                                          </ul>
+               </li>
+                                            <li>
+                   <a href="https://279f-82-215-100-197.eu.ngrok.io">Energiya samaradorlik tizimi(ES)</a>
+               </li>
+                     </ul>
+</nav>
+
+<nav id="search_sidebar" class="active">
+    <a href="#" id="xclose_search" class="xclose"><i class="glyphicon glyphicon-remove"></i></a>
+    <div class="search_box">
+        <div class="search_box_in">
+            <p>Сайт бўйича қидирув</p>
+            <form action="/search/index" method="GET">
+                <input type="text" name="SearchForm[text]" id="search" autocomplete="off" placeholder="Қидирув" value="">
+                <button type="submit" value="Поиск" id="go"><i class="glyphicon glyphicon-search"></i></button>
+            </form>
+        </div>
+    </div>
+</nav>
+<!--Header Block-->
+<div class="wrapper">
+
+    <div id="content_for_search">
+    <div id="content">
+        <div class="container relative hasWidth">
+
+            <section class="header">
+
+
+                <a href="#" id="sidebarCollapse">
+    <img src="/img/menu.png">
+</a>
+<div class="col-md-7 media_box_first">
+    <a href="/uz" class="logo">
+        <div class="logo_img">
+            <img src="/img/gerb.png">
+        </div>
+        <div class="logo_title">
+            O‘zbekiston Respublikasi <br>Energetika vazirligi        </div>
+    </a>
+</div>
+                <div class="col-md-3 media_box_second">
+    <ul class="social_network">
+                    <li>
+                <a href="https://www.facebook.com/minenergyuz/">
+                        <img src="/uploads/085c5849-2791-ef8b-2657-515c9e544bba_widget_1.png">
+                </a>
+            </li>
+                    <li>
+                <a href="https://t.me/minenergy_uz">
+                        <img src="/uploads/f4d9af70-c5a6-b623-0e08-2180dc92322f_widget_11.png">
+                </a>
+            </li>
+                    <li>
+                <a href=" https://www.instagram.com/minenergy.uz/">
+                        <img src="/uploads/d255a9bc-8b9f-aa9c-e2b7-50a5d0810fd5_widget_8.png">
+                </a>
+            </li>
+                <li>E-mail: <a href="mailto:info@minenergy.uz">info@minenergy.uz</a></li>
+    </ul>
+</div>                <div class="col-md-2 media_box_third">
+                    <!--Specials, specialView-->
+                    <ul class="specialBoxList">
+    <li class="mediaNoDisplay" onclick="popupWindow(window.location.href, '', 501, 600)"><img src="/img/phone.png"></li>
+    <div class="speciel_relative mobile">
+        <div class="special_box">
+            <div class="icon_accessibility dataTooltip" data-toggle="dropdown" data-placement="bottom" title="Махсус имкониятлар" aria-expanded="true">
+                <li><a href="#"><img src="/img/special_icon.png"></a></li>
+            </div>
+            <div class="dropdown-menu dropdown-menu-right specialViewArea no-propagation">
+                <div class="triangle2"></div>
+
+                <div class="appearance">
+                    <p class="specialTitle">Кўриниш</p>
+                    <div class="squareAppearances">
+                        <div class="squareBox spcNormal" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Оддий кўриниш">A</div>
+                    </div>
+                    <div class="squareAppearances">
+                        <div class="squareBox spcWhiteAndBlack" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Оқ-қора кўриниш">A</div>
+                    </div>
+                    <div class="squareAppearances">
+                        <div class="squareBox spcDark" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Қоронғилашган кўриниш">A</div>
+                    </div>
+                </div>
+
+                <div class="appearance">
+                    <p class="specialTitle">Шрифт ўлчами</p>
+
+                    <div class="block blocked">
+                        <div class="sliderText"><span class="range">0</span>% га катталаштириш</div>
+                        <div id="fontSizer" class="defaultSlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div>
+                    </div>
+
+                    <div class="block">
+                        <div class="sliderZoom"><span class="range">0</span>% га катталаштириш</div>
+                        <div id="zoomSizer" class="defaultSlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</ul>                    <!--End Specials, specialView-->
+
+                    <!--Langs, langsView-->
+                    <ul class="lang">
+            <li>
+            <a href="/ru">РУ</a>
+        </li>
+            <li class="active">
+            <a href="/uz">O'Z</a>
+        </li>
+            <li>
+            <a href="/en">EN</a>
+        </li>
+    </ul>
+                    <!--End Langs, langsView-->
+                </div>
+                <div class="clearfix"></div>
+                <a href="#" id="search_sidebar_collapse">
+                    <i class="glyphicon glyphicon-search"></i>
+                </a>
+            </section>
+
+        </div>
+
+        <div class="container relative hasWidth2">
+
+            <!--MainMenu, mainMenuView-->
+            
+        <section class="head_menu" id="headMenu">
+    <nav id="w2" class="navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w2-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button></div><div id="w2-collapse" class="collapse navbar-collapse"><ul id="w3" class="navbar-nav nav"><li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Vazirlik haqida</a><ul id="w4" class="dropdown-menu"><li class=""><a href="/uz/lists/view/10" target="" tabindex="-1">Vazirlik haqida</a></li>
+<li class=""><a href="/uz/pages/view/college" target="" tabindex="-1">Hay&#039;at</a></li>
+<li class=""><a href="/uz/lists/guide" target="" tabindex="-1">Rahbariyat</a></li>
+<li class=""><a href="/uz/lists/category/13" target="" tabindex="-1">Bo‘sh ish o‘rinlari</a></li>
+<li class=""><a href="/uz/lists/view/17" target="" tabindex="-1">Vazirlik tuzilmasi</a></li>
+<li class=""><a href="/uz/lists/view/11" target="" tabindex="-1">Ilmiy-tehnik kengash</a></li>
+<li class=""><a href="/uz/lists/view/39" target="" tabindex="-1">Markaziy apparat </a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">Matbuot markazi</a><ul id="w5" class="dropdown-menu"><li class=""><a href="/uz/news/category/1" target="" tabindex="-1">Yangiliklar</a></li>
+<li class=""><a href="/uz/news/category/2" target="" tabindex="-1">E&#039;lonlar</a></li>
+<li class=""><a href="/uz/news/category/3" target="" tabindex="-1">Rahbariyatning chiqish va bayonotlari </a></li>
+<li class=""><a href="/uz/pages/view/Plan" target="" tabindex="-1">Media-reja</a></li>
+<li class=""><a href="/uz/news/category/6" target="" tabindex="-1">OAV biz haqimizda</a></li>
+<li class=""><a href="/uz/pages/view/contact_smi" target="" tabindex="-1">Axborot xizmati bilan bog‘lanish</a></li>
+<li class=""><a href="/uz/lists/category/14" target="" tabindex="-1">Murojaatlar statistikasi </a></li>
+<li class=""><a href="/uz/lists/category/15" target="" tabindex="-1">Energiya samaradorligi bo‘yicha axborot portali </a></li>
+<li class=""><a href="minenergy.uz" target="_blank" tabindex="-1">O&#039;zbekiston Qahramoni</a></li>
+<li class=""><a href="/uz/lists/category/23" target="" tabindex="-1">Tariflar </a></li>
+<li class=""><a href="/uz/lists/category/27" target="" tabindex="-1">Ochiq ma&#039;lumotlar portali </a></li>
+<li class=""><a href="/uz/lists/category/28" target="" tabindex="-1">Ilmiy ishlar</a></li>
+<li class=""><a href="/uz/lists/category/29" target="" tabindex="-1">Rejalashtirilgan o&#039;chirishlar</a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">FAOLIYAT</a><ul id="w6" class="dropdown-menu"><li class=""><a href="/uz/lists/category/17" target="" tabindex="-1">Rivojlanish konsepsiyasi va investitsion imkoniyatlar</a></li>
+<li class=""><a href="/uz/lists/view/29" target="" tabindex="-1">Neft va gaz tarmog‘i</a></li>
+<li class=""><a href="/uz/lists/view/22" target="" tabindex="-1">Elektr energetika tarmog‘i</a></li>
+<li class=""><a href="/uz/lists/view/46" target="" tabindex="-1">Atom energetikasi sohasi</a></li>
+<li class=""><a href="/uz/lists/view/32" target="" tabindex="-1">Qayta tiklanuvchi energiya manbalari </a></li>
+<li class=""><a href="/uz/lists/view/33" target="" tabindex="-1">Energiya samaradorligi va energiya tejamkorligi </a></li>
+<li class=""><a href="/uz/lists/view/23" target="" tabindex="-1">Energetika sohasida davlat nazorati </a></li>
+<li class=""><a href="/uz/lists/view/34" target="" tabindex="-1">Neft va gaz sohasida davlat nazorati </a></li>
+<li class=""><a href="/uz/lists/category/12" target="" tabindex="-1">Xalqaro hamkorlik </a></li>
+<li class=""><a href="/uz/lists/category/31" target="" tabindex="-1">Korrupsiyaga qarshi kurash </a></li>
+<li class=""><a href="/uz/lists/view/37" target="" tabindex="-1">Odob-ahloq qoidalari </a></li>
+<li class=""><a href="/uz/lists/view/16" target="" tabindex="-1">Bitimlarni amalga oshirish guruhi </a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">Hujjatlar</a><ul id="w7" class="dropdown-menu"><li class=""><a href="/uz/lists/view/14" target="" tabindex="-1">Qonunlar</a></li>
+<li class=""><a href="/uz/lists/view/24" target="" tabindex="-1">Prezident farmon, qaror va farmoyishlari </a></li>
+<li class=""><a href="/uz/lists/view/26" target="" tabindex="-1">Hukumat qarori va farmoyishlari </a></li>
+<li class=""><a href="/uz/lists/view/43" target="" tabindex="-1">Adliya vazirligida ro‘yxatdan o‘tgan me&#039;yoriy hujjatlar</a></li>
+<li class=""><a href="/uz/lists/category/30" target="" tabindex="-1">Kasb standartlari</a></li></ul></li>
+<li class=""><a href="/uz/lists/view/56" target="">Bog‘lanish </a></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="https://minenergy.uz/uz" target="_blank" data-toggle="dropdown">Yoshlar ittifoqi</a><ul id="w8" class="dropdown-menu"><li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Faoliyat</a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Normativ-huquqiy hujjatlar </a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Tashkiliy tuzilma</a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Yangiliklar </a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Foto lavha</a></li>
+<li class=""><a href="/uz/lists/view/409" target="" tabindex="-1">Yosh mutaxassislarni tanlash dasturi</a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="minenergy.uz" target="_blank" data-toggle="dropdown">Save Energy</a><ul id="w9" class="dropdown-menu"><li class=""><a href="/uz/lists/category/21" target="" tabindex="-1">Yangi</a></li>
+<li class=""><a href="/uz/lists/view/138" target="" tabindex="-1">Qoidalar</a></li>
+<li class=""><a href="/uz/lists/view/139" target="" tabindex="-1">Tanlov komissiyasi </a></li>
+<li class=""><a href="/uz/lists/view/137" target="" tabindex="-1">Ariza</a></li></ul></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Kasaba uyushmasi </a><ul id="w10" class="dropdown-menu"><li class="active"><a href="/uz" target="" tabindex="-1">Yangiliklar</a></li>
+<li class="active"><a href="/uz" target="" tabindex="-1">E&#039;lonlar </a></li></ul></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Ochiq ma&#039;lumotlar</a><ul id="w11" class="dropdown-menu"><li class=""><a href="/uz/lists/category/27" target="" tabindex="-1">Ochiq ma&#039;lumotlar</a></li></ul></li>
+<li class="active"><a href="https://279f-82-215-100-197.eu.ngrok.io" target="_blank">Energiya samaradorlik tizimi(ES)</a></li></ul></div></nav></section>            <!--End MainMenu, mainMenuView-->
+<!--End Header Block-->
+
+<!--Content-->
+        <!--Single News-->
+                            <section class="announcement">
+                        <div class="announcement_img"><img src="/uploads/815f980a-9caf-a78f-3d2c-3fc0483434ed_news_.jpg"></div>
+                        <div class="announcement_text">
+                            <a href="/uz/news/view/2544" class="announcement_title">
+                                Energetika vazirligi yosh mutaxassislarni tanlash dasturi doirasida bir qator oliy ta’lim muassasalari bitiruvchi talabalari uchun tanlov e’lon qiladi                            </a>
+                            <a href="/uz/news/category/1">Янгиликлар</a>
+                        </div>
+                        <div class="date_block"><div>23 <span>Январь</span></div></div>
+                        <img src="/img/a3.png" class="spin1">
+                        <img src="/img/a2.png" class="spin2">
+                        <img src="/img/a1.png" class="spin3">
+                    </section>
+                    
+
+        <!--Spheres-->
+        <section>
+    <ul class="links">
+                    <li>
+                <a href="/uz/lists/view/29">
+                    <div class="links_img"><img src="/uploads/f711fbe9-9cd5-48f2-bbb0-7bcad1062b13_widget_4.png"></div>
+                    <div class="links_text">Neft va gaz sanoati </div>
+                </a>
+            </li>
+                    <li>
+                <a href="/uz/lists/view/22">
+                    <div class="links_img"><img src="/uploads/de11fbe0-9019-4267-4b23-0386072910d3_widget_2.png"></div>
+                    <div class="links_text">ELEKTROENERGETIKA </div>
+                </a>
+            </li>
+                    <li>
+                <a href="/uz/lists/view/32">
+                    <div class="links_img"><img src="/uploads/5aa69f4c-b3a7-e377-fe0b-4db66342c2f2_widget_5.png"></div>
+                    <div class="links_text">Qayta tiklanuvchi manbalar </div>
+                </a>
+            </li>
+            </ul>
+</section>
+        <!--News-->
+        <section class="news">
+    <div class="title_block">Янгиликлар</div>
+    <div class="news_in_block">
+                            <div class="col-md-4">
+                    <div class="img_block"><img src="/uploads/8061037a-bc29-1227-3a67-cafdb6fa9d73_news_.jpg"></div>
+                    <div class="news_text">
+                        <div>23<span>Январь</span></div>
+                        <a href="/uz/news/view/2544">
+                            <span>Energetika vazirligi yosh mutaxassislarni tanlash dasturi doirasida bir qator oliy ta’lim muassasalari bitiruvchi talabalari uchun tanlov e’lon qiladi</span>
+                        </a>
+                    </div>
+                </div>
+                            <div class="col-md-4">
+                    <div class="img_block"><img src="/uploads/2f5a36da-a9f0-259f-2ba6-2b41db60dc49_news_.jpg"></div>
+                    <div class="news_text">
+                        <div>23<span>Январь</span></div>
+                        <a href="/uz/news/view/2542">
+                            <span>O‘zbekistondan Afg‘onistonga elektr energiyasini yetkazib berish tiklanishi rejalashtirilmoqda </span>
+                        </a>
+                    </div>
+                </div>
+                            <div class="col-md-4">
+                    <div class="img_block"><img src="/uploads/e0b69d5d-b0c9-6776-f9a1-b1c1917b6e7e_news_.jpg"></div>
+                    <div class="news_text">
+                        <div>23<span>Январь</span></div>
+                        <a href="/uz/news/view/2541">
+                            <span>Avtobenzin yetarli miqdorda birja savdolariga chiqarilmoqda. Shuningdek, avtobenzin narxini sun’iy ravishda oshirishga yo‘l qo‘yilmaydi</span>
+                        </a>
+                    </div>
+                </div>
+            <div class="clearfix"></div>    </div>
+</section>
+
+
+        <!--Video-->
+        <section class="video_block">
+    <div class="title_block">Видео галерея</div>
+    <div class="video_box">
+        <img src="uploads/fd99f283-aac1-5d8c-ab5a-abc067bc1eca_video-gallery_.jpg">
+        <a href="/uz/gallery/video" class="video_box_title"><img src="/img/play_icon.png"><span>Сурхондарёда иссиқлик электр станцияси қурилиши бошланди</span></a>
+    </div>
+    <a href="/uz/gallery/video" class="all_video_link">Барча видео файллар</a>
+    <div class="clearfix"></div>
+</section>
+        <!--Photos-->
+        <section class="image_block">
+    <div class="title_block">Фото галерея</div>
+    <div class="slider">
+        <div class="slider_bg">
+            <img class="slider_bg_img" src="/img/slider_img.jpg">
+        </div>
+        <div id="slider_block">
+            <div class="item">
+                <div class="slider_img"><img src="/uploads/00e2d599-f8c7-a890-4d50-07955b154e22_gallery_.jpg"></div>
+                <div class="description">
+                    <div class="slider_title">Energetika vazirligida “HuaWei” kompaniyasi bilan uchrashuv bo‘lib o‘tdi</div>
+                    <!--<div class="slider_text"></div>-->
+                </div>
+            </div>
+                        <div class="item">
+                <div class="slider_img"><img src="/uploads/7e229ca7-6a56-9242-2a02-53ec7b7a75a5_gallery_.jpg"></div>
+                <div class="description">
+                    <div class="slider_title">Халқаро ва маҳаллий экспертлар Ўзбекистонда электр энергиясининг улгуржи рақобатбардош бозорини ривожлантириш масалаларини муҳокама қилдилар</div>
+                    <!--<div class="slider_text"></div>-->
+                </div>
+            </div>
+                        <div class="item">
+                <div class="slider_img"><img src="/uploads/559443c3-2242-a0fc-6fb2-96fa98330cbc_gallery_.jpg"></div>
+                <div class="description">
+                    <div class="slider_title">Энергетика вазири тизимда амалга оширилаётган ишлар, мавжуд муаммолар ва куз-қиш мавсумига тайёргарлик кўриш юзасидан танқидий йиғилиш ўтказди</div>
+                    <!--<div class="slider_text"></div>-->
+                </div>
+            </div>
+                        <div class="item">
+                <div class="slider_img"><img src="/uploads/36da7257-58fd-0fa6-fd95-983df7f44e48_gallery_38.jpg"></div>
+                <div class="description">
+                    <div class="slider_title">Энергетика вазирлиги ва “Газпром” ОАЖ ўртасидаги ҳамкорлик муҳокама қилинди</div>
+                    <!--<div class="slider_text"></div>-->
+                </div>
+            </div>
+                    </div>
+    </div>
+    <a href="/uz/gallery/photo" class="all_video_link">Барча фото файллар</a>
+    <div class="clearfix"></div>
+</section>
+        <!--Events-->
+        <section class="events_block">
+    <div class="title_block">Воқеалар</div>
+    <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-12 event_box">
+                    <div class="img_block"><img src="/uploads/7387dde5-9e94-da50-c8b9-caa3ed8ba328_news_.jpg"></div>
+                    <div class="date_text">Январь 23.2023</div>
+                    <div class="clearfix"></div>
+                    <a href="/uz/news/view/2543" class="event_title">
+                        Energetika vazirligi yosh mutaxassislarni tanlash dasturi doirasida bir qator oliy ta’lim muassasalari bitiruvchi talabalari uchun tanlov e’lon qiladi                    </a>
+                    <div class="event_text">
+                                            </div>
+                    <div class="view_box"><img src="/img/view_icon.png"> <span>28</span></div>
+                </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 event_box">
+                    <div class="img_block"><img src="/img/default_img.jpg"></div>
+                    <div class="date_text">Декабрь 28.2022</div>
+                    <div class="clearfix"></div>
+                    <a href="/uz/news/view/2442" class="event_title">
+                        Bayram kunlari iste’molchilarga yoqilg‘i-energiya resurslarini uzluksiz yetkazib berilishi uchun zarur choralar ko‘rildi                    </a>
+                    <div class="event_text">
+                                            </div>
+                    <div class="view_box"><img src="/img/view_icon.png"> <span>343</span></div>
+                </div>
+                            <div class="col-md-4 col-sm-6 col-xs-12 event_box">
+                    <div class="img_block"><img src="/uploads/35e2d699-d4b8-9a17-8505-ef694d60ffb9_news_.jpg"></div>
+                    <div class="date_text">Октябрь 25.2022</div>
+                    <div class="clearfix"></div>
+                    <a href="/uz/news/view/2228" class="event_title">
+                        Energetika vazirligida matbuot-shtabi tashkil etildi                    </a>
+                    <div class="event_text">
+                                            </div>
+                    <div class="view_box"><img src="/img/view_icon.png"> <span>1995</span></div>
+                </div>
+                </div>
+</section>
+
+
+        <!--Tabpanel-->
+        <section class="tab_panel">
+    <ul class="nav nav-tabs">
+<!--        <li class="active"><a data-toggle="tab" href="#tender">--><!--</a></li>-->
+        <li class="active"><a data-toggle="tab" href="#anons">Эълонлар</a></li>
+        <li><a data-toggle="tab" href="#activity">Ҳодисалар</a></li>
+    </ul>
+
+    <div class="tab-content">
+<!--        <div id="tender" class="tab-pane active"><br>-->
+<!--            <div class="">-->
+                <!--        --><!--                <div class="col-md-6 col-lg-6 col-xl-6">-->
+<!--                    <a href="#" class="tab_link">Тендер на закупку электрического оборудования<br> для фильтрации сетевых помех</a>-->
+<!--                    <div class="tab_date">24.06.2019</div>-->
+<!--                    <div class="status">Статус: <span class="open_box">ОТКРЫТ</span></div>-->
+<!--                    <div class="tab_text">-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
+<!--                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco-->
+<!--                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in-->
+<!--                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-6 col-lg-6 col-xl-6">-->
+<!--                    <a href="#" class="tab_link">Тендер на закупку электрического оборудования<br> для фильтрации сетевых помех</a>-->
+<!--                    <div class="tab_date">24.06.2019</div>-->
+<!--                    <div class="status">Статус: <span class="open_box">ОТКРЫТ</span></div>-->
+<!--                    <div class="tab_text">-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
+<!--                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco-->
+<!--                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in-->
+<!--                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="clearfix"></div>-->
+<!--                <div class="border_bottom"></div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+
+        <div id="anons" class="tab-pane active"><br>
+            <div class="">
+                
+    <div class="col-md-6 col-lg-6 col-xl-6">
+        <a href="/uz/news/view/2543" class="tab_link">Energetika vazirligi yosh mutaxassislarni tanlash dasturi doirasida bir qator oliy ta’lim muassasalari bitiruvchi talabalari uchun tanlov e’lon qiladi</a>
+        <div class="tab_date">23.01.2023</div>
+        <div class="tab_text">
+                    </div>
+    </div>
+        <div class="col-md-6 col-lg-6 col-xl-6">
+        <a href="/uz/news/view/2445" class="tab_link">Energetika vazirligi binosida 240 kVt quvvatli quyosh fotoelektr stansiyasi ishga tushirildi</a>
+        <div class="tab_date">29.12.2022</div>
+        <div class="tab_text">
+                    </div>
+    </div>
+    <div class="clearfix"></div><div class="border_bottom"></div>    <div class="col-md-6 col-lg-6 col-xl-6">
+        <a href="/uz/news/view/2442" class="tab_link">Bayram kunlari iste’molchilarga yoqilg‘i-energiya resurslarini uzluksiz yetkazib berilishi uchun zarur choralar ko‘rildi</a>
+        <div class="tab_date">28.12.2022</div>
+        <div class="tab_text">
+                    </div>
+    </div>
+        <div class="col-md-6 col-lg-6 col-xl-6">
+        <a href="/uz/news/view/2228" class="tab_link">Energetika vazirligida matbuot-shtabi tashkil etildi</a>
+        <div class="tab_date">25.10.2022</div>
+        <div class="tab_text">
+                    </div>
+    </div>
+    <div class="clearfix"></div><div class="border_bottom"></div>            </div>
+        </div>
+        <div id="activity" class="tab-pane fade"><br>
+            <div class="">
+                
+<div class="col-md-6 col-lg-6 col-xl-6">
+    <a href="/uz/news/view/10" class="tab_link">ТАХИАТОШ ИЭС АЖДА СОДИР БЎЛГАН ТЕХНОЛОГИК НУҚСОНЛАР ТЎҒРИСИДА МАЪЛУМОТ.</a>
+    <div class="tab_date">19.07.2019</div>
+
+    <div class="tab_text">
+        18 июль 2019 йил соат 10дан 43 минут ўтганда Тахиатош ИЭС АЖнинг 8-энергоблоки технологик ҳимоя тизими ишлаши натижасида ўчди. Орадан 12 сония ўтганда 7-энергоблок ва 1-турбоагрегат хам технологик ҳимоя ...    </div>
+</div>
+                </div>
+        </div>
+    </div>
+</section>
+        <!--Region Map-->
+        <section class="map_block">
+    <div class="region_info">
+        <div class="region_content">
+            <div class="content_title">
+                Ҳудудий лойиҳалар                <span>Харитадан ҳудудни танланг</span>
+            </div>
+            <div class="map_box_uzb">
+                <div class="map_box row" id="map_box">
+                    <div id="vmap" class="col-md-12"></div>
+                    <div id="mapLabels"></div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+
+</script>
+<script>
+    $(document).ready(function () {
+        makeMap(messages);
+        $(".xscroll").niceScroll();
+    });
+    var messages ={"an":{"title":"\u0410\u043d\u0434\u0438\u0436\u043e\u043d \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[{"url":"\/lists\/view\/40","label":"Elektr tarmoqlari"},{"url":"\/lists\/view\/41","label":"Quyosh energetikasi"}]}]},"bu":{"title":"\u0411\u0443\u0445\u043e\u0440\u043e \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"ji":{"title":"\u0416\u0438\u0437\u0437\u0430\u0445 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]},{"icon_id":3,"title":"\u0410\u0442\u043e\u043c \u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430\u0441\u0438","links":[]}]},"qa":{"title":"\u049a\u0430\u0448\u049b\u0430\u0434\u0430\u0440\u0451 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"no":{"title":"\u041d\u0430\u0432\u043e\u0438\u0439 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"na":{"title":"\u041d\u0430\u043c\u0430\u043d\u0433\u0430\u043d \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"sa":{"title":"\u0421\u0430\u043c\u0430\u0440\u049b\u0430\u043d\u0434 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"gu":{"title":"\u0421\u0438\u0440\u0434\u0430\u0440\u0451 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"te":{"title":"\u0421\u0443\u0440\u0445\u043e\u043d\u0434\u0430\u0440\u0451 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"to":{"title":"\u0422\u043e\u0448\u043a\u0435\u043d\u0442 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"fa":{"title":"\u0424\u0430\u0440\u0493\u043e\u043d\u0430 \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"xo":{"title":"\u0425\u043e\u0440\u0430\u0437\u043c \u0432\u0438\u043b\u043e\u044f\u0442\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"qo":{"title":"\u049a\u043e\u0440\u0430\u049b\u0430\u043b\u043f\u043e\u0493\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]},"tosh":{"title":"\u0422\u043e\u0448\u043a\u0435\u043d\u0442 \u0448\u0430\u04b3\u0440\u0438","organisations":[{"icon_id":1,"title":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u0430","links":[]},{"icon_id":2,"title":"\u041d\u0435\u0444\u0442 \u0432\u0430 \u0413\u0430\u0437","links":[]}]}}</script>
+
+
+        <!--Useful Links-->
+        <section class="usefulllinks_block">
+    <div id="links_slider">
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/9078735b-334b-0df2-1495-36f53c0e1183_widget_3.png"></div>
+                    <a href="https://data.gov.uz/uz" class="links_slider_text">O‘zbekiston Respublikasi ochiq ma'lumotlar portali</a>
+                </div>
+            </div>
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/cfbf26ad-26fd-4d6f-bf6a-e11a32c2db0b_widget_6.png"></div>
+                    <a href="http://elections.uz" class="links_slider_text">O‘zbekiston Respublikasi Markaziy Saylov Komissiyasi </a>
+                </div>
+            </div>
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/b7eadf64-8915-d604-6e93-78c54b724dc6_widget_7.png"></div>
+                    <a href="http://www.lex.uz/" class="links_slider_text">O‘zbekiston Respublikasi Qonun hujjatlari ma'lumotlari milliy bazasi</a>
+                </div>
+            </div>
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/379d5495-e3c1-b949-85c5-e6f173e864a4_widget_10.png"></div>
+                    <a href="https://my.gov.uz" class="links_slider_text">Yagona interaktiv davlat xizmatlari portali </a>
+                </div>
+            </div>
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/55b3e46e-77f3-7d15-0723-7ac979badd8d_widget_12.jpg"></div>
+                    <a href="http://ung.uz/" class="links_slider_text">“O‘zbekneftgaz” aksiyadorlik jamiyati</a>
+                </div>
+            </div>
+                    <div class="item">
+                <div class="description">
+                    <div class="links_slider_img"><img src="/uploads/70166ce4-e176-1484-dcf1-0152c3df94cb_widget_.jpg"></div>
+                    <a href="http://huquqiyportal.uz/" class="links_slider_text">Milliy huquqiy internet portali</a>
+                </div>
+            </div>
+            </div>
+</section>
+</div>
+<!--End Content-->
+
+<!--Footer Block-->
+<div class="footer">
+    <div class="container relative hasWidth3">
+        <section class="footer_block">
+            <a href="/uz" class="logo">
+                <div class="logo_img">
+                    <img src="/img/gerb2.png">
+                </div>
+                <div class="logo_title">
+                     O‘zbekiston Respublikasi <span>Energetika vazirligi</span>                </div>
+            </a>
+            <div class="clearfix"></div>
+
+            <!--MainMenu, mainMenuView-->
+            
+        <div class="head_menu footer_menu">
+    <nav id="w12" class="navbar"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w12-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button></div><div id="w12-collapse" class="collapse navbar-collapse"><ul id="w13" class="navbar-nav nav"><li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Vazirlik haqida</a><ul id="w14" class="dropdown-menu"><li class=""><a href="/uz/lists/view/10" target="" tabindex="-1">Vazirlik haqida</a></li>
+<li class=""><a href="/uz/pages/view/college" target="" tabindex="-1">Hay&#039;at</a></li>
+<li class=""><a href="/uz/lists/guide" target="" tabindex="-1">Rahbariyat</a></li>
+<li class=""><a href="/uz/lists/category/13" target="" tabindex="-1">Bo‘sh ish o‘rinlari</a></li>
+<li class=""><a href="/uz/lists/view/17" target="" tabindex="-1">Vazirlik tuzilmasi</a></li>
+<li class=""><a href="/uz/lists/view/11" target="" tabindex="-1">Ilmiy-tehnik kengash</a></li>
+<li class=""><a href="/uz/lists/view/39" target="" tabindex="-1">Markaziy apparat </a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">Matbuot markazi</a><ul id="w15" class="dropdown-menu"><li class=""><a href="/uz/news/category/1" target="" tabindex="-1">Yangiliklar</a></li>
+<li class=""><a href="/uz/news/category/2" target="" tabindex="-1">E&#039;lonlar</a></li>
+<li class=""><a href="/uz/news/category/3" target="" tabindex="-1">Rahbariyatning chiqish va bayonotlari </a></li>
+<li class=""><a href="/uz/pages/view/Plan" target="" tabindex="-1">Media-reja</a></li>
+<li class=""><a href="/uz/news/category/6" target="" tabindex="-1">OAV biz haqimizda</a></li>
+<li class=""><a href="/uz/pages/view/contact_smi" target="" tabindex="-1">Axborot xizmati bilan bog‘lanish</a></li>
+<li class=""><a href="/uz/lists/category/14" target="" tabindex="-1">Murojaatlar statistikasi </a></li>
+<li class=""><a href="/uz/lists/category/15" target="" tabindex="-1">Energiya samaradorligi bo‘yicha axborot portali </a></li>
+<li class=""><a href="minenergy.uz" target="_blank" tabindex="-1">O&#039;zbekiston Qahramoni</a></li>
+<li class=""><a href="/uz/lists/category/23" target="" tabindex="-1">Tariflar </a></li>
+<li class=""><a href="/uz/lists/category/27" target="" tabindex="-1">Ochiq ma&#039;lumotlar portali </a></li>
+<li class=""><a href="/uz/lists/category/28" target="" tabindex="-1">Ilmiy ishlar</a></li>
+<li class=""><a href="/uz/lists/category/29" target="" tabindex="-1">Rejalashtirilgan o&#039;chirishlar</a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">FAOLIYAT</a><ul id="w16" class="dropdown-menu"><li class=""><a href="/uz/lists/category/17" target="" tabindex="-1">Rivojlanish konsepsiyasi va investitsion imkoniyatlar</a></li>
+<li class=""><a href="/uz/lists/view/29" target="" tabindex="-1">Neft va gaz tarmog‘i</a></li>
+<li class=""><a href="/uz/lists/view/22" target="" tabindex="-1">Elektr energetika tarmog‘i</a></li>
+<li class=""><a href="/uz/lists/view/46" target="" tabindex="-1">Atom energetikasi sohasi</a></li>
+<li class=""><a href="/uz/lists/view/32" target="" tabindex="-1">Qayta tiklanuvchi energiya manbalari </a></li>
+<li class=""><a href="/uz/lists/view/33" target="" tabindex="-1">Energiya samaradorligi va energiya tejamkorligi </a></li>
+<li class=""><a href="/uz/lists/view/23" target="" tabindex="-1">Energetika sohasida davlat nazorati </a></li>
+<li class=""><a href="/uz/lists/view/34" target="" tabindex="-1">Neft va gaz sohasida davlat nazorati </a></li>
+<li class=""><a href="/uz/lists/category/12" target="" tabindex="-1">Xalqaro hamkorlik </a></li>
+<li class=""><a href="/uz/lists/category/31" target="" tabindex="-1">Korrupsiyaga qarshi kurash </a></li>
+<li class=""><a href="/uz/lists/view/37" target="" tabindex="-1">Odob-ahloq qoidalari </a></li>
+<li class=""><a href="/uz/lists/view/16" target="" tabindex="-1">Bitimlarni amalga oshirish guruhi </a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="#" target="" data-toggle="dropdown">Hujjatlar</a><ul id="w17" class="dropdown-menu"><li class=""><a href="/uz/lists/view/14" target="" tabindex="-1">Qonunlar</a></li>
+<li class=""><a href="/uz/lists/view/24" target="" tabindex="-1">Prezident farmon, qaror va farmoyishlari </a></li>
+<li class=""><a href="/uz/lists/view/26" target="" tabindex="-1">Hukumat qarori va farmoyishlari </a></li>
+<li class=""><a href="/uz/lists/view/43" target="" tabindex="-1">Adliya vazirligida ro‘yxatdan o‘tgan me&#039;yoriy hujjatlar</a></li>
+<li class=""><a href="/uz/lists/category/30" target="" tabindex="-1">Kasb standartlari</a></li></ul></li>
+<li class=""><a href="/uz/lists/view/56" target="">Bog‘lanish </a></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="https://minenergy.uz/uz" target="_blank" data-toggle="dropdown">Yoshlar ittifoqi</a><ul id="w18" class="dropdown-menu"><li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Faoliyat</a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Normativ-huquqiy hujjatlar </a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Tashkiliy tuzilma</a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Yangiliklar </a></li>
+<li class=""><a href="http://minenergy.uz/uz" target="_blank" tabindex="-1">Foto lavha</a></li>
+<li class=""><a href="/uz/lists/view/409" target="" tabindex="-1">Yosh mutaxassislarni tanlash dasturi</a></li></ul></li>
+<li class="dropdown"><a class="dropdown-toggle" href="minenergy.uz" target="_blank" data-toggle="dropdown">Save Energy</a><ul id="w19" class="dropdown-menu"><li class=""><a href="/uz/lists/category/21" target="" tabindex="-1">Yangi</a></li>
+<li class=""><a href="/uz/lists/view/138" target="" tabindex="-1">Qoidalar</a></li>
+<li class=""><a href="/uz/lists/view/139" target="" tabindex="-1">Tanlov komissiyasi </a></li>
+<li class=""><a href="/uz/lists/view/137" target="" tabindex="-1">Ariza</a></li></ul></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Kasaba uyushmasi </a><ul id="w20" class="dropdown-menu"><li class="active"><a href="/uz" target="" tabindex="-1">Yangiliklar</a></li>
+<li class="active"><a href="/uz" target="" tabindex="-1">E&#039;lonlar </a></li></ul></li>
+<li class="active dropdown"><a class="dropdown-toggle" href="/uz" target="" data-toggle="dropdown">Ochiq ma&#039;lumotlar</a><ul id="w21" class="dropdown-menu"><li class=""><a href="/uz/lists/category/27" target="" tabindex="-1">Ochiq ma&#039;lumotlar</a></li></ul></li>
+<li class="active"><a href="https://279f-82-215-100-197.eu.ngrok.io" target="_blank">Energiya samaradorlik tizimi(ES)</a></li></ul></div></nav></div>            <!--End MainMenu, mainMenuView-->
+
+            <div class="col-xs-12 col-md-6 col-sm-6 footer_block_text">
+                <span>Маълумотлардан фойдаланилганда <br>www.minenergy.uz га ҳавола кўрсатилиши шарт</span>                <span>© Барча ҳуқуқлар ҳимояланган 2019 - 2023</span>
+				<a target="_blank" style="color:#fff" href="/uz/news/view/921" >ЭЛЕКТР ЭНЕРГИЯСИ ВА ГАЗ ТАЪМИНОТИ БИЛАН БОҒЛИҚ САВОЛЛАР ЮЗАСИДАН МУРОЖААТ МАНЗИЛЛАРИ РЎЙХАТИ</a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-sm-6 footer_block_contact">
+                <ul>
+                    
+                    <li><span>Ишонч телефони</span> 71-236-38-22 </li>
+					<li><span>Иш тартиби:</span> 9:00 дан 18:00 гача </li>
+					<li><span>Тушлик:</span> 13:00-14:00 </li>
+                    <li><span>Қабул кунлари</span>Душанба - Жума</li>
+					<li><span>Call марказ </span> - 1154 (электр энергияси бўйича)<br>  <span></span> - 1104 (газ таъминоти бўйича)</li>						            </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-7 col-sm-12">Диққат! Агар сиз матнда хатоликларни аниқласангиз, уларни белгилаб, маъмуриятни хабардор қилиш учун Ctrl+Enter тугмаларини босинг</div>
+            <div class="col-xs-6 col-md-2 col-sm-6">
+				<!-- START WWW.UZ TOP-RATING --><SCRIPT language="javascript" type="text/javascript">
+<!--
+top_js="1.0";top_r="id=43916&r="+escape(document.referrer)+"&pg="+escape(window.location.href);document.cookie="smart_top=1; path=/"; top_r+="&c="+(document.cookie?"Y":"N")
+//-->
+</SCRIPT>
+<SCRIPT language="javascript1.1" type="text/javascript">
+<!--
+top_js="1.1";top_r+="&j="+(navigator.javaEnabled()?"Y":"N")
+//-->
+</SCRIPT>
+<SCRIPT language="javascript1.2" type="text/javascript">
+<!--
+top_js="1.2";top_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+(((navigator.appName.substring(0,3)=="Mic"))?screen.colorDepth:screen.pixelDepth)
+//-->
+</SCRIPT>
+<SCRIPT language="javascript1.3" type="text/javascript">
+<!--
+top_js="1.3";
+//-->
+</SCRIPT>
+<SCRIPT language="JavaScript" type="text/javascript">
+<!--
+top_rat="&col=0063AF&t=ffffff&p=E6850F";top_r+="&js="+top_js+"";document.write('<a href="http://www.uz/ru/res/visitor/index?id=43916" target=_top><img src="http://cnt0.www.uz/counter/collect?'+top_r+top_rat+'" width=88 height=31 border=0 alt="Топ рейтинг www.uz"></a>')//-->
+</SCRIPT><NOSCRIPT><A href="http://www.uz/ru/res/visitor/index?id=43916" target=_top><IMG height=31 src="http://cnt0.www.uz/counter/collect?id=43916&pg=http%3A//uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=E6850F" width=88 border=0 alt="Топ рейтинг www.uz"></A></NOSCRIPT><!-- FINISH WWW.UZ TOP-RATING -->  </div>
+            <div class="col-xs-6 col-md-3 col-sm-6"><a href="https://uzinfocom.uz"><img src="/img/uzinfocom.png"></a></div>
+
+        </section>
+    </div>
+  </div>
+ </div>
+ </div>
+</div>
+
+
+
+<!--End Footer Block-->
+<div class="fixed">
+    <!-- Text to speech button-->
+    <!-- normally this stuff would be on the html element -->
+    <!--[if lt IE 7]>  <div class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+    <!--[if IE 7]>     <div class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+    <!--[if IE 8]>     <div class="ie ie8 lte9 lte8"> <![endif]-->
+    <!--[if IE 9]>     <div class="ie ie9 lte9"> <![endif]-->
+    <!--[if gt IE 9]>  <div> <![endif]-->
+    <!--[if !IE]><!--> <div>             <!--<![endif]-->
+        <div class="s-wrapper">
+            <button class="s-read-text"> <i class="glyphicon glyphicon-volume-up"></i></button>
+            <div class="s-tooltip">
+                <span class="s-arrow-helper"></span>
+                <span class="s-arrow"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--END Text to speech button--><script src="//code-ya.jivosite.com/widget/DWktY27eAK" async></script>
+
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#sidebarCollapse').click (function() {
+            $('#sidebar, #content').addClass('active');
+            $('#search_sidebar, #content_for_search').removeClass('active');
+            $('#sidebar').removeClass('active');
+            $('#search_sidebar').addClass('active');
+        });
+        $('#xclose').on('click', function () {
+            $('#sidebarCollapse, #content').removeClass('active');
+            $('#sidebar').addClass('active');
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#search_sidebar").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#search_sidebar_collapse').click (function() {
+            $('#search_sidebar, #content_for_search').addClass('active');
+            $('#sidebar, #content').removeClass('active');
+            $('#search_sidebar').removeClass('active');
+            $('#sidebar').addClass('active');
+        });
+        $('#xclose_search').on('click', function () {
+            $('#search_sidebar, #content_for_search').removeClass('active');
+            $('#search_sidebar').addClass('active');
+        });
+
+    });
+</script>
+</html>

@@ -67,6 +67,7 @@ class GlobaslView(TemplateView):
     model = Poster
     model = FaieldFiled
     model = Media
+    model = Information
     # def add(request):
     #     response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
 
@@ -83,14 +84,18 @@ class GlobaslView(TemplateView):
         # context['news2'] = Post.objects.all().order_by('-date')[1:3]
         # context['news3'] = Post.objects.all().order_by('-date')[4:7]
         context['media_photo_list'] = Media.objects.filter(category_id=1).order_by('-date')[0:3]
+        context['eng1'] = Information.objects.filter(category_id=1)[0:3]
+        context['eng2'] = Information.objects.filter(category_id=1)[3:6]
+
+
 
         # context['categor'] = CategoryDoc.objects.all().order_by('-date')
 
         
-        # response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
-        # d=response.json()
-        # ip=ceil(d['main']['temp'])
-        context['dt']=1
+        response = requests.get("https://api.openweathermap.org/data/2.5/weather?q=Samarkand&mode=json&units=metric&appid=be6e7f0f7386c829ba7f4931a44ff58d")
+        d=response.json()
+        ip=ceil(d['main']['temp'])
+        context['dt']=ip
         
         
         context['poster'] = Poster.objects.all().order_by('-date')[0:3] 
